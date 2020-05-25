@@ -1,0 +1,27 @@
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	cim = commit -m
+	cia = commit --amend
+	ps = push
+	psu = push -u
+	pl = pull
+	plr = pull --rebase
+	rs = reset
+	rsh = reset --hard HEAD
+	rss = reset --soft HEAD
+	c = clean -f -d
+	d = diff
+	ls = log --oneline
+
+[user]
+	name = Jakub Sarnowski
+	email = hello@jsarnowski.com
+
+[push]
+	default = current
+
+[core]
+	excludesfile = ~/.gitignore

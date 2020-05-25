@@ -1,0 +1,41 @@
+- defaults:
+    link:
+      force: true
+
+- shell:
+    - rm -rf gen && mkdir gen
+    - curl -L https://iterm2.com/shell_integration/zsh -o gen/iterm2.zsh
+    - curl -L https://raw.githubusercontent.com/Homebrew/install/master/install.sh -o gen/install_homebrew.sh
+    - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh -o gen/install_nvm.sh
+    - curl -L https://github.com/sarneeh/alfred-vscode/archive/v2.2.0.zip -o gen/alfred-vscode.zip
+    - unzip src/Alfred.alfredpreferences.zip -d gen/alfred
+    - unzip gen/alfred-vscode.zip -d gen/alfred-vscode
+    - rm gen/alfred-vscode.zip
+
+- link:
+    ~/.zshrc: src/zshrc
+    ~/.gitignore: src/gitignore
+    ~/.gitconfig: src/gitconfig
+    ~/.iterm2.zsh: gen/iterm2.zsh
+
+- shell:
+    - xcode-select --install
+    - sh gen/install_homebrew.sh
+    - sh gen/install_nvm.sh
+    - brew install z
+    - brew install yarn
+    - brew cask install git --force
+    - brew cask install google-chrome --force
+    - brew cask install visual-studio-code --force
+    - brew cask install iterm2 --force
+    - brew cask install insomnia --force
+    - brew cask install alfred --force
+    - brew cask install optimage --force
+    - brew cask install kap --force
+    - brew cask install spotify --force
+    - '
+        cd gen/alfred-vscode/alfred-vscode-2.2.0
+        && npm install
+        && ./node_modules/.bin/alfy-init
+    '
+    - source ~/.zshrc

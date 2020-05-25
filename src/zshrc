@@ -1,0 +1,48 @@
+# Variables
+export ZSH="$HOME/.oh-my-zsh"
+export EDITOR='vim'
+
+export PATH=$PATH:/usr/local/opt/php@7.2/bin
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$HOME/Library/Android/sdk/tools
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
+
+export PATH=$PATH:$HOME/Tools/flutter/bin
+export PATH=$PATH:$HOME/Tools/caddy
+export PATH=$PATH:$HOME/Tools/docker-gen
+
+# Theme
+ZSH_THEME="common"
+
+# Plugins
+plugins=(
+    git
+    brew
+    npm
+    yarn
+    nvm
+    vscode
+)
+
+# Aliases
+alias g='git'
+
+alias d='docker'
+alias ld='lazydocker'
+alias dc='docker-compose'
+alias dp='docker system prune -f -a'
+
+alias aws='aws2'
+
+alias py='python3'
+alias py2='python'
+alias pip='pip3'
+alias pip2='pip2'
+
+# Z
+. /usr/local/etc/profile.d/z.sh
+
+# Finalize
+source "$ZSH/oh-my-zsh.sh"
+source "${HOME}/.iterm2.zsh"
