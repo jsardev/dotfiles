@@ -15,6 +15,7 @@
 
 - shell:
     - sh gen/install_homebrew.sh
+    
     - brew install zsh
     - brew install z
     - brew install yarn
@@ -28,6 +29,9 @@
     - brew cask install spotify --force
     - brew cask install iterm2 --force
 
+    - sh gen/install_nvm.sh
+    - sh gen/install_ohmyzsh.sh
+
 - link:
     ~/.zshrc: src/zshrc
     ~/.gitignore: src/gitignore
@@ -36,6 +40,4 @@
 
 - shell:
     - chsh -s /bin/zsh
-    - sh gen/install_nvm.sh
-    - sh gen/install_ohmyzsh.sh
     - source ~/.zshrc
