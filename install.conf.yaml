@@ -13,21 +13,11 @@
     - unzip gen/alfred-vscode.zip -d gen/alfred-vscode
     - rm gen/alfred-vscode.zip
 
-- link:
-    ~/.zshrc: src/zshrc
-    ~/.gitignore: src/gitignore
-    ~/.gitconfig: src/gitconfig
-    ~/.iterm2.zsh: gen/iterm2.zsh
-
 - shell:
     - sh gen/install_homebrew.sh
     - brew install zsh
-    - chsh -s /bin/zsh
-
     - brew install z
     - brew install yarn
-    - sh gen/install_nvm.sh
-    - sh gen/install_ohmyzsh.sh
     - brew cask install git --force
     - brew cask install google-chrome --force
     - brew cask install visual-studio-code --force
@@ -37,9 +27,15 @@
     - brew cask install kap --force
     - brew cask install spotify --force
     - brew cask install iterm2 --force
-    - '
-        cd gen/alfred-vscode/alfred-vscode-2.2.0
-        && npm install
-        && ./node_modules/.bin/alfy-init
-    '
+
+- link:
+    ~/.zshrc: src/zshrc
+    ~/.gitignore: src/gitignore
+    ~/.gitconfig: src/gitconfig
+    ~/.iterm2.zsh: gen/iterm2.zsh
+
+- shell:
+    - chsh -s /bin/zsh
+    - sh gen/install_nvm.sh
+    - sh gen/install_ohmyzsh.sh
     - source ~/.zshrc
