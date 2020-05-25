@@ -20,18 +20,17 @@
     ~/.iterm2.zsh: gen/iterm2.zsh
 
 - shell:
-    - brew install z
-    - brew install yarn
+    - sh gen/install_homebrew.sh
     - brew install zsh
     - chsh -s /bin/zsh
-    - sh gen/install_homebrew.sh
+
+    - brew install z
+    - brew install yarn
     - sh gen/install_nvm.sh
     - sh gen/install_ohmyzsh.sh
-    - xcode-select --install
     - brew cask install git --force
     - brew cask install google-chrome --force
     - brew cask install visual-studio-code --force
-    - brew cask install iterm2 --force
     - brew cask install insomnia --force
     - brew cask install alfred --force
     - brew cask install optimage --force
