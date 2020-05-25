@@ -31,6 +31,7 @@
 
     - sh gen/install_nvm.sh
     - sh gen/install_ohmyzsh.sh
+    - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o $ZSH_CUSTOM/themes/common.zsh-theme
 
 - link:
     ~/.zshrc: src/zshrc
