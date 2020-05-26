@@ -51,13 +51,13 @@
 
 - shell:
     - dockutil --remove all
-    - defaults write com.apple.dock autohide 1
-    - defaults write com.apple.dock autohide-time-modifier 0.25
-    - defaults write com.apple.dock autohide-delay 0
-    - defaults write com.apple.dock largesize 55
-    - defaults write com.apple.dock magnification 1
-    - defaults write com.apple.dock show-recents 0
-    - defaults write com.apple.dock tilesize 48
+    - defaults write com.apple.dock autohide -int 1
+    - defaults write com.apple.dock autohide-time-modifier -float 0.25
+    - defaults write com.apple.dock autohide-delay -int 0
+    - defaults write com.apple.dock largesize -int 55
+    - defaults write com.apple.dock magnification -int 1
+    - defaults write com.apple.dock show-recents -int 0
+    - defaults write com.apple.dock tilesize -int 48
     - killall Dock
     - dockutil --add '/Applications/Google Chrome.app'
     - dockutil --add '/Applications/iTerm.app'
