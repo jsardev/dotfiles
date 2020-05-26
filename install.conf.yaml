@@ -9,9 +9,13 @@
     - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh -o gen/install_nvm.sh
     - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
     - curl -L https://github.com/sarneeh/alfred-vscode/archive/v2.2.0.zip -o gen/alfred-vscode.zip
+    - curl -L https://download.jetbrains.com/fonts/JetBrainsMono-1.0.3.zip -o gen/jetbrains-mono.zip
     - unzip src/Alfred.alfredpreferences.zip -d gen/alfred
     - unzip gen/alfred-vscode.zip -d gen/alfred-vscode
+    - unzip gen/jetbrains-mono.zip -d gen/jetbrains-mono
+    - mv gen/jetbrains-mono/ttf/* ~/Library/Fonts
     - rm gen/alfred-vscode.zip
+    - rm gen/jetbrains-mono.zip
 
 - shell:
     - sh gen/install_homebrew.sh
@@ -38,7 +42,7 @@
     - sh gen/install_nvm.sh
     - rm -rf "$HOME/.oh-my-zsh"
     - sh gen/install_ohmyzsh.sh
-    - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o $ZSH_CUSTOM/themes/common.zsh-theme
+    - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o ~/.oh-my-zsh/custom/themes/common.zsh-theme
 
 - link:
     ~/.zshrc: src/zshrc

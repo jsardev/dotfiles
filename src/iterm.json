@@ -338,6 +338,7 @@
     "Alpha Component": 1,
     "Green Component": 1
   },
+  "ASCII Ligatures": true,
   "Name": "Default",
   "Cursor Text Color": {
     "Red Component": 0.94097667932510376,
@@ -386,7 +387,7 @@
     "Alpha Component": 1,
     "Green Component": 1
   },
-  "Normal Font": "SFMono-Regular 14",
+  "Normal Font": "JetBrainsMono-Regular 16",
   "Ansi 2 Color": {
     "Red Component": 0.14805346727371216,
     "Color Space": "Calibrated",
