@@ -41,6 +41,12 @@ And after the initial setup we can configure additional workflows with:
 
 Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
 
+### Visual Studio Code
+
+1. Download the `Settings Sync` plugin
+2. Authorize `Settings Sync` to your GitHub account
+3. Run `Download Settings` command
+
 ## External apps
 
 Below are apps that are also crucial but can't be downloaded and installed via Homebrew - that's why you'll need to install them manually via Mac App Store.
