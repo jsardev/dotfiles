@@ -19,6 +19,9 @@
     - brew install zsh
     - brew install z
     - brew install yarn
+    - brew install jq
+    - brew install httpie
+    - brew install dockutil
     - brew cask install git --force
     - brew cask install google-chrome --force
     - brew cask install visual-studio-code --force
@@ -28,6 +31,9 @@
     - brew cask install kap --force
     - brew cask install spotify --force
     - brew cask install iterm2 --force
+    - brew cask install rocket --force
+    - brew cask install 1password --force
+    - brew cask install dash --force
 
     - sh gen/install_nvm.sh
     - sh gen/install_ohmyzsh.sh
@@ -42,3 +48,19 @@
 - shell:
     - chsh -s /bin/zsh
     - source ~/.zshrc
+
+- shell:
+    - dockutil --remove all
+    - defaults write com.apple.dock autohide 1
+    - defaults write com.apple.dock autohide-time-modifier 0.25
+    - defaults write com.apple.dock autohide-delay 0
+    - defaults write com.apple.dock largesize 55
+    - defaults write com.apple.dock magnification 1
+    - defaults write com.apple.dock show-recents 0
+    - defaults write com.apple.dock tilesize 48
+    - killall Dock
+    - dockutil --add '/Applications/Google Chrome.app'
+    - dockutil --add '/Applications/iTerm.app'
+    - dockutil --add '/Applications/Visual Studio Code.app'
+    - dockutil --add '/Applications/Spotify.app'
+    - dockutil --add '/Applications/Insomnia.app'
