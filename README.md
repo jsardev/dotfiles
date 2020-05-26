@@ -20,9 +20,22 @@ Some of the installed apps need to be manually configured as the process can't b
 
 ### Alfred
 
-Run Alfred for the first time, enter the license and import the config from `gen/alfred/Alfred.alfredpreferences`.
+First, you need to turn off the default Mac Spotlight keyboard shortcut:
 
-After that, run the `configure_alfred` script to install `alfred-vscode` workflow.
+1. System preferences > Keyboard > Shortcuts
+2. Select Spotlight
+3. Deselect all spotlight shortcuts
+
+Now, we can run configure Alfred for the first run:
+
+1. Run Alfred
+2. Enter the license
+3. Select `gen/alfred/Alfred.alfredpreferences` as migration preferences
+4. Ensure that in the `General` tab the hotkey is set to `CMD + Space`
+
+And after the initial setup we can configure additional workflows with:
+
+`./configure_alfred`
 
 ### iTerm
 
@@ -35,3 +48,7 @@ Below are apps that are also crucial but can't be downloaded and installed via H
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766)
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
 - [Keka](https://apps.apple.com/pl/app/keka/id470158793)
+
+## Miscellaneous
+
+You may also need to install [Logitech Options](https://www.logitech.com/pl-pl/product/options) in order to properly configure the wireless Logitech keyboard.
