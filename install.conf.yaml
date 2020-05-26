@@ -13,7 +13,7 @@
     - unzip src/Alfred.alfredpreferences.zip -d gen/alfred
     - unzip gen/alfred-vscode.zip -d gen/alfred-vscode
     - unzip gen/jetbrains-mono.zip -d gen/jetbrains-mono
-    - mv gen/jetbrains-mono/ttf/* ~/Library/Fonts
+    - mv gen/jetbrains-mono/JetBrainsMono-1.0.3/ttf/* ~/Library/Fonts
     - rm gen/alfred-vscode.zip
     - rm gen/jetbrains-mono.zip
 
