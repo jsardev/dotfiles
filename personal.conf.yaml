@@ -1,0 +1,30 @@
+- shell:
+    - brew install --cask --force handbrake
+    - brew install --cask --force audacity
+    - brew install --cask --force tableplus
+    - brew install --cask --force numi
+    - brew install --cask --force keycastr
+    - brew install --cask --force transmission
+    - brew install --cask --force dropshare
+    - brew install --cask --force discord
+    - brew install --cask --force messenger
+    - brew install --cask --force transmit
+
+    - mas install 905384638 # Filebot
+    - mas install 1507246666 # Presentify
+    - mas install 824171161 # Affinity Designer
+    - mas install 824183456 # Affinity Photo
+    - mas install 1339170533 # Clean My Mac X
+
+- create:
+    - ~/Workshop@sites
+    - ~/Workshop@games
+
+- shell:
+    - mysides remove all
+    - mysides add Home file:///Users/jsarnowski/
+    - mysides add Workshop file:///Users/jsarnowski/Workshop/
+    - mysides add Workshop@games file:///Users/jsarnowski/Workshop@games/
+    - mysides add Workshop@sites file:///Users/jsarnowski/Workshop@sites/
+    - mysides add Documents file:///Users/jsarnowski/Documents/
+    - mysides add Downloads file:///Users/jsarnowski/Downloads/
