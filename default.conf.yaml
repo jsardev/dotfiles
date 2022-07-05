@@ -1,6 +1,6 @@
 - defaults:
     link:
-        force: true
+      force: true
 
 - shell:
     - rm -rf gen && mkdir gen
@@ -10,7 +10,6 @@
     - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
     - curl -L https://download.jetbrains.com/fonts/JetBrainsMono-1.0.3.zip -o gen/jetbrains-mono.zip
     - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o gen/common.zsh-theme
-    - unzip src/Alfred.alfredpreferences.zip -d gen/alfred
     - unzip gen/jetbrains-mono.zip -d gen/jetbrains-mono
     - mv gen/jetbrains-mono/JetBrainsMono-1.0.3/ttf/* ~/Library/Fonts
     - rm gen/jetbrains-mono.zip
@@ -24,18 +23,17 @@
     - brew install yarn
     - brew install pnpm
     - brew install git
-    - brew install jq
+    - brew install htop
     - brew install httpie
-    - brew install kubernetes-cli
-    - brew install minikube
+    - brew install curl
+    - brew install jq
     - brew install dockutil
-    - brew install --cask --force brave-browser
+
+    - brew install --cask --force google-chrome
     - brew install --cask --force intellij-idea
-    - brew install --cask --force linear-linear
     - brew install --cask --force iterm2
-    - brew install --cask --force notable
-    - brew install --cask --force figma
-    - brew install --cask --force alfred
+    - brew install --cask --force notion
+    - brew install --cask --force raycast
     - brew install --cask --force optimage
     - brew install --cask --force kap
     - brew install --cask --force spotify
@@ -44,13 +42,11 @@
     - brew install --cask --force dash
     - brew install --cask --force mysides
 
-    - mas install 585829637 # Todoist
-    - mas install 1489591003 # Edison Email
     - mas install 441258766 # Magnet
     - mas install 1470584107 # Dato
+    - mas install 1489591003 # Edison Mail
     - mas install 937984704 # Amphetamine
     - mas install 470158793 # Keka
-    - mas install 803453959 # Slack
 
     - sh gen/install_nvm.sh
 
@@ -90,7 +86,7 @@
     - defaults write com.apple.menuextra.clock ShowDayOfWeek -bool true
     - defaults write com.apple.menuextra.clock DateFormat -string "HH:mm:ss"
     - defaults write com.apple.menuextra.clock Show24Hour -bool true
-    # disable spotlight keyboard shortcuts (replaced by Alfred)
+    # disable spotlight keyboard shortcuts (replaced by Raycast)
     - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:64:enabled false'
     - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:65:enabled false'
     # enable mission control > displays have separate spaces
@@ -98,7 +94,6 @@
     # set finder default view to list
     - defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-    - dockutil --remove all
     - defaults write com.apple.dock autohide -int 1
     - defaults write com.apple.dock autohide-time-modifier -float 0.25
     - defaults write com.apple.dock autohide-delay -int 0
@@ -107,10 +102,12 @@
     - defaults write com.apple.dock show-recents -int 0
     - defaults write com.apple.dock tilesize -int 48
     - killall Dock
-    - dockutil --add '/Applications/Brave Browser.app'
+
+    - dockutil --remove all
+    - dockutil --add '/Applications/Google Chrome.app'
     - dockutil --add '/Applications/iTerm.app'
     - dockutil --add '/Applications/IntelliJ IDEA.app'
-    - dockutil --add '/Applications/Linear.app'
-    - dockutil --add '/Applications/Figma.app'
+    - dockutil --add '/Applications/Notion.app'
     - dockutil --add '/Applications/Dash.app'
     - dockutil --add '/Applications/Spotify.app'
+    - dockutil --add '/Applications/Edison Mail.app'

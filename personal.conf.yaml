@@ -1,9 +1,11 @@
 - shell:
+    - brew install rsync
     - brew install --cask --force handbrake
     - brew install --cask --force audacity
     - brew install --cask --force tableplus
     - brew install --cask --force numi
     - brew install --cask --force keycastr
+    - brew install --cask --force figma
     - brew install --cask --force transmission
     - brew install --cask --force dropshare
     - brew install --cask --force discord
@@ -28,3 +30,6 @@
     - mysides add Workshop@sites file:///Users/jsarnowski/Workshop@sites/
     - mysides add Documents file:///Users/jsarnowski/Documents/
     - mysides add Downloads file:///Users/jsarnowski/Downloads/
+
+- shell:
+    - dockutil --add '/Applications/Figma.app'
