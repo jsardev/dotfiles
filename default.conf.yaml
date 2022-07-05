@@ -15,7 +15,7 @@
     - rm gen/jetbrains-mono.zip
 
 - shell:
-    - sh gen/install_homebrew.sh
+    - bash gen/install_homebrew.sh
 
     - brew install mas
     - brew install zsh
@@ -48,10 +48,10 @@
     - mas install 937984704 # Amphetamine
     - mas install 470158793 # Keka
 
-    - sh gen/install_nvm.sh
+    - bash gen/install_nvm.sh
 
     - rm -rf "$HOME/.oh-my-zsh"
-    - sh gen/install_ohmyzsh.sh
+    - bash gen/install_ohmyzsh.sh
     - cp gen/common.zsh-theme ~/.oh-my-zsh/custom/themes/common.zsh-theme
 
 - link:
