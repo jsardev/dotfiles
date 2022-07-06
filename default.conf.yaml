@@ -44,7 +44,6 @@
 
     - mas install 441258766 # Magnet
     - mas install 1470584107 # Dato
-    - mas install 1489591003 # Edison Mail
     - mas install 937984704 # Amphetamine
     - mas install 470158793 # Keka
 
@@ -110,4 +109,3 @@
     - dockutil --add '/Applications/Notion.app'
     - dockutil --add '/Applications/Dash.app'
     - dockutil --add '/Applications/Spotify.app'
-    - dockutil --add '/Applications/Edison Mail.app'

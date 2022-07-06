@@ -40,7 +40,7 @@ alias pip='pip3'
 alias pip2='pip2'
 
 # Z
-. /usr/local/etc/profile.d/z.sh
+. $(brew --prefix)/etc/profile.d/z.sh
 
 # Finalize
 source "$ZSH/oh-my-zsh.sh"

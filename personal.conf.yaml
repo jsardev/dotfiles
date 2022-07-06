@@ -17,6 +17,7 @@
     - mas install 824171161 # Affinity Designer
     - mas install 824183456 # Affinity Photo
     - mas install 1339170533 # Clean My Mac X
+    - mas install 1489591003 # Edison Mail
 
 - create:
     - ~/Workshop@sites
@@ -33,3 +34,4 @@
 
 - shell:
     - dockutil --add '/Applications/Figma.app'
+    - dockutil --add '/Applications/Edison Mail.app'

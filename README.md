@@ -39,6 +39,23 @@ Now, we can run Raycast and configure it:
 
 Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
 
+### IntelliJ 
+
+#### CLI
+
+[Setup](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#9c49c588) the `idea`
+script to open projects/files via command line.
+
+1. Create a file under `/usr/local/bin/idea` with the content below
+    ```shell
+    #!/bin/sh
+    
+    open -na "IntelliJ IDEA.app" --args "$@"
+    ```
+2. Give execution permissions to the script `sudo chmod +x /usr/local/bin/idea`
+
+#### Plugins / settings
+
 ## Miscellaneous
 
 - Keyboard / Mouse: [Logitech Options+](https://www.logitech.com/pl-pl/software/logi-options-plus.html)
