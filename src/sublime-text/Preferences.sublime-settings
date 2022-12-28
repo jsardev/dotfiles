@@ -1,0 +1,14 @@
+{
+	"font_size": 18,
+	"font_face": "JetBrains Mono",
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"goto_anything_exclude_gitignore": true,
+	"auto_complete_delay": 0,
+	"line_padding_top": 2,
+	"line_padding_bottom": 2,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

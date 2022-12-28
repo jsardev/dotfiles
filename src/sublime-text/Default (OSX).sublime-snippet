@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[console.log(${1:message})]]></content>
+	<tabTrigger>cl</tabTrigger>
+	<scope>source.ts</scope>
+</snippet>

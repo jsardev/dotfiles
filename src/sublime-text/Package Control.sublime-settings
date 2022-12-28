@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages": [],
+	"installed_packages": [
+		"Dracula Color Scheme",
+		"LSP",
+		"LSP-angular",
+		"LSP-css",
+		"LSP-json",
+		"LSP-typescript",
+		"Ngx HTML",
+		"Package Control",
+		"PackageDev",
+		"Sass",
+		"SyncedSideBar",
+	],
+}

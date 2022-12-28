@@ -1,0 +1,10 @@
+[
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": [
+			"super"
+		],
+		"command": "lsp_symbol_definition"
+	},
+]
