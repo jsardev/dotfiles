@@ -12,6 +12,9 @@ export PATH=$PATH:$HOME/Tools/flutter/bin
 export PATH=$PATH:$HOME/Tools/caddy
 export PATH=$PATH:$HOME/.composer/vendor/bin
 export PATH=/usr/local/opt/php@7.4/bin:$PATH
+export PATH=$PATH:$HOME/.poetry/bin
+
+export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
@@ -30,6 +33,7 @@ plugins=(
 
 # Aliases
 alias g='git'
+alias lg='lazygit'
 
 alias d='docker'
 alias ld='lazydocker'
@@ -41,9 +45,31 @@ alias py2='python'
 alias pip='pip3'
 alias pip2='pip2'
 
+alias n='npm'
+alias p='pnpm'
+alias y='yarn'
+alias yw='yarn workspace'
+
 # Z
 . $(brew --prefix)/etc/profile.d/z.sh
 
 # Finalize
 source "$ZSH/oh-my-zsh.sh"
 source "${HOME}/.iterm2.zsh"
+
+# Added by NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
+
+# Added by Amplify CLI binary installer
+export PATH="$HOME/.amplify/bin:$PATH"
+
+export PNPM_HOME="/Users/jsarnowski/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+export PATH="$HOME/.poetry/bin:$PATH"
+

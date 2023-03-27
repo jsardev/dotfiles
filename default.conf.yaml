@@ -28,6 +28,7 @@
     - brew install curl
     - brew install jq
     - brew install dockutil
+    - brew install jless
 
     - brew install --cask --force google-chrome
     - brew install --cask --force intellij-idea
@@ -92,6 +93,8 @@
     - defaults write com.apple.spaces spans-displays -bool false
     # set finder default view to list
     - defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+    # show hidden files in finder
+    - defaults write com.apple.finder AppleShowAllFiles true
 
     - defaults write com.apple.dock autohide -int 1
     - defaults write com.apple.dock autohide-time-modifier -float 0.25
