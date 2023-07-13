@@ -11,8 +11,10 @@
     - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o gen/common.zsh-theme
 
 - shell:
-    - bash gen/install_homebrew.sh
-    - brew bundle --file default.Brewfile
+    - NONINTERACTIVE=1 bash gen/install_homebrew.sh
+    - command: /opt/homebrew/bin/brew bundle --file default.Brewfile
+      stdout: true
+      stderr: true
 
     - bash gen/install_nvm.sh
 
@@ -43,25 +45,32 @@
 - shell:
     # show bluetooth icon in menu bar
     - defaults -currentHost write com.apple.controlcenter Bluetooth 18
+
     # show sound icon in menu bar
     - defaults -currentHost write com.apple.controlcenter Sound 18
-    # set clock to analog (replaced by Dato)
-    - defaults write com.apple.menuextra.clock IsAnalog -bool true
-    # set clock settings if Dato would be unused
-    - defaults write com.apple.menuextra.clock ShowDayOfMonth -bool true
-    - defaults write com.apple.menuextra.clock ShowDayOfWeek -bool true
+
+    # clock settings
+    - defaults write com.apple.menuextra.clock IsAnalog -bool false
     - defaults write com.apple.menuextra.clock DateFormat -string "HH:mm:ss"
+    - defaults write com.apple.menuextra.clock ShowAMPM -bool false
+    - defaults write com.apple.menuextra.clock ShowDayOfWeek -bool true
+    - defaults write com.apple.menuextra.clock ShowDayOfMonth -bool true
     - defaults write com.apple.menuextra.clock Show24Hour -bool true
+
     # disable spotlight keyboard shortcuts (replaced by Raycast)
     - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:64:enabled false'
     - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:65:enabled false'
+
     # enable mission control > displays have separate spaces
     - defaults write com.apple.spaces spans-displays -bool false
+
     # set finder default view to list
     - defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
     # show hidden files in finder
     - defaults write com.apple.finder AppleShowAllFiles true
 
+    # dock settings
     - defaults write com.apple.dock autohide -int 1
     - defaults write com.apple.dock autohide-time-modifier -float 0.25
     - defaults write com.apple.dock autohide-delay -int 0

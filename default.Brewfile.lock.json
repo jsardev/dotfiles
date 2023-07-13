@@ -2,25 +2,22 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "5264d22973740ffcfa456be537930e431c19f4c7"
+        "revision": "2ab409bef9d94ce127bc611651d3af8ebb9edcdb"
       },
       "homebrew/cask": {
-        "revision": "1a8cad145c7e0963e12acc3870f766e3cc9ae672"
-      },
-      "homebrew/cask-drivers": {
-        "revision": "ac22a119959def773812dd42edfb8bc21f64d913"
+        "revision": "3720e09ad2c1297c0ac44e1bba5c3e245730d8ed"
       },
       "homebrew/cask-fonts": {
         "revision": "2f386c9e6738fb95545dca800fc1e56808d8155a"
       },
       "homebrew/core": {
-        "revision": "7fd87f2ab8f95b69c8bf06ec18a007bf133667ec"
+        "revision": "71df5b72a1dbfdbad671755e684c348e59c828c7"
       },
       "homebrew/services": {
         "revision": "d39f864ddffda7a8c47dc95cd284b50683db9653"
       },
       "aws/tap": {
-        "revision": "e02e6b6e462f6d60c16ff00375bfbc4deeb84880"
+        "revision": "8cbd050dee953a7e85a2f6c60fcd4b0cab72a1aa"
       }
     },
     "brew": {
@@ -1244,7 +1241,7 @@
         }
       },
       "spotify": {
-        "version": "1.2.15.828,79f41970,487",
+        "version": "1.2.15.828,79f41970,492",
         "options": {
           "full_name": "spotify"
         }
@@ -1326,11 +1323,11 @@
     "macos": {
       "ventura": {
         "HOMEBREW_VERSION": "4.0.28",
-        "HOMEBREW_PREFIX": "/usr/local",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
-        "CLT": "",
+        "CLT": "14.3.1.0.1.1683849156",
         "Xcode": "14.3",
-        "macOS": "13.2.1"
+        "macOS": "13.4"
       }
     }
   }
