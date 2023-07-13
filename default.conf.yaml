@@ -8,45 +8,11 @@
     - curl -L https://raw.githubusercontent.com/Homebrew/install/master/install.sh -o gen/install_homebrew.sh
     - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh -o gen/install_nvm.sh
     - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
-    - curl -L https://download.jetbrains.com/fonts/JetBrainsMono-1.0.3.zip -o gen/jetbrains-mono.zip
     - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o gen/common.zsh-theme
-    - unzip gen/jetbrains-mono.zip -d gen/jetbrains-mono
-    - mv gen/jetbrains-mono/JetBrainsMono-1.0.3/ttf/* ~/Library/Fonts
-    - rm gen/jetbrains-mono.zip
 
 - shell:
     - bash gen/install_homebrew.sh
-
-    - brew install mas
-    - brew install zsh
-    - brew install z
-    - brew install yarn
-    - brew install pnpm
-    - brew install git
-    - brew install htop
-    - brew install httpie
-    - brew install curl
-    - brew install jq
-    - brew install dockutil
-    - brew install jless
-
-    - brew install --cask --force google-chrome
-    - brew install --cask --force intellij-idea
-    - brew install --cask --force iterm2
-    - brew install --cask --force notion
-    - brew install --cask --force raycast
-    - brew install --cask --force optimage
-    - brew install --cask --force kap
-    - brew install --cask --force spotify
-    - brew install --cask --force rocket
-    - brew install --cask --force 1password
-    - brew install --cask --force dash
-    - brew install --cask --force mysides
-
-    - mas install 441258766 # Magnet
-    - mas install 1470584107 # Dato
-    - mas install 937984704 # Amphetamine
-    - mas install 470158793 # Keka
+    - brew bundle --file default.Brewfile
 
     - bash gen/install_nvm.sh
 
@@ -106,9 +72,9 @@
     - killall Dock
 
     - dockutil --remove all
-    - dockutil --add '/Applications/Google Chrome.app'
+    - dockutil --add '/Applications/Arc.app'
     - dockutil --add '/Applications/iTerm.app'
-    - dockutil --add '/Applications/IntelliJ IDEA.app'
+    - dockutil --add '/Applications/Visual Studio Code.app'
     - dockutil --add '/Applications/Notion.app'
     - dockutil --add '/Applications/Dash.app'
     - dockutil --add '/Applications/Spotify.app'
