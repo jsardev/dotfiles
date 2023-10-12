@@ -20,6 +20,9 @@
 	name = Jakub Sarnowski
 	email = hello@jsarnowski.com
 
+[pull]
+	rebase = true
+
 [push]
 	default = current
 

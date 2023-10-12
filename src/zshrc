@@ -73,3 +73,5 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # Added by Amplify CLI binary installer
 export PATH="$HOME/.amplify/bin:$PATH"
 
+# Lazygit
+export LG_CONFIG_FILE="$HOME/.lazygit.yml"

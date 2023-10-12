@@ -27,6 +27,7 @@
     ~/.gitignore: src/gitignore
     ~/.gitconfig: src/gitconfig
     ~/.iterm2.zsh: gen/iterm2.zsh
+    ~/.lazygit.yml: src/lazygit.yml
 
 - shell:
     - chsh -s /bin/zsh
