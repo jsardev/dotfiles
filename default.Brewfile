@@ -41,6 +41,14 @@ brew "dockutil"
 # https://dns.lookup.dog/
 brew "dog"
 
+# dust / More intuitive version of du in rust
+# https://github.com/bootandy/dust
+brew "dust"
+
+# eza / Modern, maintained replacement for ls
+# https://eza.rocks/
+brew "eza"
+
 # gh / GitHub command-line tool
 # https://github.com/cli/cli
 brew "gh"
