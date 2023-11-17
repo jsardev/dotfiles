@@ -97,6 +97,10 @@ brew "yarn"
 # https://pnpm.io/
 brew "pnpm"
 
+# pyenv / Python version management
+# https://github.com/pyenv/pyenv
+brew "pyenv"
+
 # quicktype / Generate types and converters from JSON, Schema, and GraphQL
 # https://github.com/quicktype/quicktype
 brew "quicktype"
@@ -164,41 +168,3 @@ mas "Magnet", id: 441258766
 mas "LocalSend", id: 1661733229
 mas "Amphetamine", id: 937984704
 mas "Keka", id: 470158793
-
-####################
-## VSCODE PLUGINS ##
-####################
-
-vscode "aaron-bond.better-comments"
-vscode "alefragnani.project-manager"
-vscode "be5invis.vscode-custom-css"
-vscode "bmewburn.vscode-intelephense-client"
-vscode "bradlc.vscode-tailwindcss"
-vscode "codezombiech.gitignore"
-vscode "Dart-Code.dart-code"
-vscode "Dart-Code.flutter"
-vscode "dbaeumer.vscode-eslint"
-vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
-vscode "geequlim.godot-tools"
-vscode "IronGeek.vscode-env"
-vscode "k--kato.intellij-idea-keybindings"
-vscode "kokororin.vscode-phpfmt"
-vscode "monokai.theme-monokai-pro-vscode"
-vscode "ms-azuretools.vscode-docker"
-vscode "ms-dotnettools.csharp"
-vscode "ms-python.isort"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
-vscode "oderwat.indent-rainbow"
-vscode "pnp.polacode"
-vscode "Prisma.prisma"
-vscode "Razoric.gdscript-toolkit-formatter"
-vscode "sanity-io.vscode-sanity"
-vscode "svelte.svelte-vscode"
-vscode "tamasfe.even-better-toml"
-vscode "Terrastruct.d2"
-vscode "vscode-icons-team.vscode-icons"
