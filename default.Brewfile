@@ -35,7 +35,7 @@ brew "docker-compose"
 
 # dockutil / Tool for managing dock items
 # https://github.com/kcrawford/dockutil
-brew "dockutil"
+# brew "dockutil"
 
 # dog / Command-line DNS client
 # https://dns.lookup.dog/
