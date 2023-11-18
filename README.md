@@ -21,6 +21,12 @@ order to install everything that's necessary to start the automation script.
 Some of the installed apps need to be manually configured as the process can't be automated. Here's a description of the
 necessary configurations:
 
+### Docker
+
+To install docker, it's bet to use the Docker Desktop application as installing it via `brew` comes with some issues.
+
+[Download Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
 ### Raycast
 
 First, you need to turn off the default Mac Spotlight keyboard shortcut:
@@ -37,22 +43,11 @@ Now, we can run Raycast and configure it:
 
 ### iTerm
 
-Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
+1. Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
 
-### IntelliJ 
+2. Import the `src/iterm.itermkeymap` keymap configuration overwriting the existing ones.
 
-#### CLI
-
-[Setup](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#9c49c588) the `idea`
-script to open projects/files via command line.
-
-1. Create a file under `/usr/local/bin/idea` with the content below
-    ```shell
-    #!/bin/sh
-    
-    open -na "IntelliJ IDEA.app" --args "$@"
-    ```
-2. Give execution permissions to the script `sudo chmod +x /usr/local/bin/idea`
+3. Set the global hotkey `option + space`
 
 #### Plugins / settings
 
