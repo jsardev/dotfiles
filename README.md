@@ -21,6 +21,12 @@ order to install everything that's necessary to start the automation script.
 Some of the installed apps need to be manually configured as the process can't be automated. Here's a description of the
 necessary configurations:
 
+### 1Password
+
+Set global hotkeys for 1Password:
+
+- Show Quick Access: `cmd + option + \`
+
 ### Docker
 
 To install docker, it's bet to use the Docker Desktop application as installing it via `brew` comes with some issues.
@@ -44,10 +50,9 @@ Now, we can run Raycast and configure it:
 ### iTerm
 
 1. Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
-
 2. Import the `src/iterm.itermkeymap` keymap configuration overwriting the existing ones.
-
-3. Set the global hotkey `option + space`
+3. Set the preferences folder to `~/.dotfiles/src`
+4. Set the global hotkey `option + space`
 
 #### Plugins / settings
 
