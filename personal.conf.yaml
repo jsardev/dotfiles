@@ -12,6 +12,7 @@
     - brew install --cask --force messenger
     - brew install --cask --force transmit
 
+    - mas install 1423210932 # Flow
     - mas install 905384638 # Filebot
     - mas install 1507246666 # Presentify
     - mas install 824171161 # Affinity Designer
