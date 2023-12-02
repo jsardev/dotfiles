@@ -121,6 +121,10 @@ brew "watch"
 # https://github.com/rupa/z
 brew "z"
 
+# shfmt / Autoformat shell script source code
+# https://github.com/mvdan/sh
+brew "shfmt"
+
 # zsh / UNIX shell (command interpreter)
 # https://www.zsh.org/
 brew "zsh"
