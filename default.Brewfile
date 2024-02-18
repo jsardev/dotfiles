@@ -3,9 +3,7 @@
 ##########
 
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "aws/tap"
 
@@ -137,15 +135,15 @@ brew "zsh"
 cask "iterm2"
 cask "visual-studio-code"
 cask "figma"
-cask "insomnia"
 cask "optimage"
 cask "dash"
 cask "cleanshot"
+cask "httpie"
 
 # Organisation
 cask "notion"
+cask "notion-calendar"
 cask "raindropio"
-cask "cron"
 cask "1password"
 
 # System
