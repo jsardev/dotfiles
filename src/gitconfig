@@ -5,6 +5,7 @@
 	ci = commit
 	cim = commit -m
 	cia = commit --amend
+	cp = cherry-pick
 	ps = push
 	psu = push -u
 	pl = pull
@@ -31,3 +32,12 @@
 
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[http]
+	version = HTTP/2
+	postBuffer = 524288000

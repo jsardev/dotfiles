@@ -1,7 +1,11 @@
 # yaml-language-server: $schema=https://json.schemastore.org/lazygit.json
 
 gui:
+  showFileTree: false
   showListFooter: false
   showRandomTip: false
   showBottomLine: false
+  pull:
+    mode: rebase
 
+promptToReturnFromSubprocess: false

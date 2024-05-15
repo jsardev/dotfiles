@@ -13,16 +13,17 @@ export PATH=$PATH:/usr/local/share/android-commandlinetools/emulator
 export PATH=$PATH:$HOME/Tools/flutter/bin
 export PATH=$PATH:$HOME/Tools/caddy
 export PATH=$PATH:$HOME/.composer/vendor/bin
-export PATH=/usr/local/opt/php@7.4/bin:$PATH
 export PATH=$PATH:$HOME/.poetry/bin
 export PATH="$HOME/.poetry/bin:$PATH"
+
+export PATH=/usr/local/opt/php@7.4/bin:$PATH
+export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
 
 export PNPM_HOME="/Users/jsarnowski/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
-
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 # Theme
 ZSH_THEME="common"
