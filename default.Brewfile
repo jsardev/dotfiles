@@ -133,7 +133,7 @@ brew "zsh"
 
 # Development
 cask "iterm2"
-cask "visual-studio-code"
+cask "zed"
 cask "figma"
 cask "optimage"
 cask "dash"
@@ -147,6 +147,7 @@ cask "raindropio"
 cask "1password"
 
 # System
+cask "arc"
 cask "raycast"
 cask "rocket"
 cask "mysides"
