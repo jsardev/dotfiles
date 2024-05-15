@@ -41,6 +41,7 @@
     ~/.gitconfig: src/gitconfig
     ~/.iterm2.zsh: gen/iterm2.zsh
     ~/.lazygit.yml: src/lazygit.yml
+    ~/.config/zed/settings.json: src/zed-config.json
 
 - shell:
     - chsh -s /bin/zsh
