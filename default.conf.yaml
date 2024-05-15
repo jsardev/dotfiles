@@ -11,7 +11,10 @@
     - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o gen/common.zsh-theme
 
 - shell:
-    - NONINTERACTIVE=1 bash gen/install_homebrew.sh
+    - command: bash gen/install_homebrew.sh
+      stdout: true
+      stderr: true
+      stdin: true
     - command: /opt/homebrew/bin/brew bundle --file default.Brewfile
       stdout: true
       stderr: true
