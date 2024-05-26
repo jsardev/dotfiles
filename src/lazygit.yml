@@ -8,4 +8,12 @@ gui:
   pull:
     mode: rebase
 
+git:
+  autoFetch: true
+  autoRefresh: true
+
 promptToReturnFromSubprocess: false
+
+refresher:
+  refreshInterval: 1
+  fetchInterval: 60
