@@ -42,6 +42,7 @@
     ~/.iterm2.zsh: gen/iterm2.zsh
     ~/.lazygit.yml: src/lazygit.yml
     ~/.config/zed/settings.json: src/zed-config.json
+    ~/.config/zed/keymap.json: src/zed-keymap.json
 
 - shell:
     - chsh -s /bin/zsh

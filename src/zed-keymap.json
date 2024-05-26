@@ -1,0 +1,14 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-s": "workspace::SaveAll"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "cmd--": "project_panel::CollapseAllEntries"
+    }
+  }
+]
