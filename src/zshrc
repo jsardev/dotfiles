@@ -44,7 +44,7 @@ alias lg='lazygit'
 
 alias d='docker'
 alias ld='lazydocker'
-alias dc='docker-compose'
+alias dc='docker compose'
 alias dp='docker system prune -f -a'
 
 alias py='python3'
