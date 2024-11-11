@@ -127,6 +127,10 @@ brew "shfmt"
 # https://www.zsh.org/
 brew "zsh"
 
+# rsync / Fast incremental file transfer
+# https://rsync.samba.org/
+brew "rsync"
+
 ###########
 ## CASKS ##
 ###########
@@ -162,6 +166,7 @@ cask "spotify"
 cask "handbrake"
 cask "keycastr"
 cask "numi"
+cask "audacity"
 
 ###############
 ## Mac Store ##
