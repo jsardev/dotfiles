@@ -31,9 +31,13 @@
     - curl -L https://github.com/kcrawford/dockutil/releases/download/3.0.2/dockutil-3.0.2.pkg -o gen/dockutil.pkg
     - sudo installer -pkg gen/dockutil.pkg -target /
 
-    # Needed for various CLI's
+    # Needed for various CLI's (Only for Apple Silicon)
     # e.g. https://github.com/mosen/mysides/issues/27#issuecomment-1668176666
-    - softwareupdate --install-rosetta --agree-to-license
+    - if [[ $(uname -m) == "arm64" ]]; then softwareupdate --install-rosetta --agree-to-license; fi
+
+- create:
+    - ~/Workshop
+    - ~/.config/zed
 
 - link:
     ~/.zshrc: src/zshrc
@@ -47,9 +51,6 @@
 - shell:
     - chsh -s /bin/zsh
     - source ~/.zshrc
-
-- create:
-    - ~/Workshop
 
 - shell:
     - mysides remove all

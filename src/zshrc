@@ -39,6 +39,11 @@ plugins=(
 )
 
 # Aliases
+alias ls='eza'
+alias du='dust'
+alias dig='doggo'
+alias rgrep='ripgrep'
+
 alias g='git'
 alias lg='lazygit'
 

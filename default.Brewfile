@@ -3,7 +3,6 @@
 ##########
 
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "aws/tap"
 
@@ -35,9 +34,9 @@ brew "docker-compose"
 # https://github.com/kcrawford/dockutil
 # brew "dockutil"
 
-# dog / Command-line DNS client
-# https://dns.lookup.dog/
-brew "dog"
+# doggo / Command-line DNS client
+# https://github.com/mr-karan/doggo
+brew "doggo"
 
 # dust / More intuitive version of du in rust
 # https://github.com/bootandy/dust
@@ -138,6 +137,7 @@ brew "rsync"
 # Development
 cask "iterm2"
 cask "zed"
+cask "visual-studio-code"
 cask "figma"
 cask "optimage"
 cask "dash"
