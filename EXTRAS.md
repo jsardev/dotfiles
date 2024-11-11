@@ -20,6 +20,7 @@ This is a curated list of useful software that might be needed sometime.
 - `brew install composer`
 - `brew install mkcert`
 - `brew install lazydocker`
+- [grit](https://docs.grit.io/)
 
 ## Testing
 - `brew install vegeta`
