@@ -15,7 +15,7 @@
       stdout: true
       stderr: true
       stdin: true
-    - command: /usr/local/bin/brew bundle --file default.Brewfile
+    - command: /opt/homebrew/bin/brew bundle --file default.Brewfile
       stdout: true
       stderr: true
 
@@ -24,12 +24,6 @@
     - rm -rf "$HOME/.oh-my-zsh"
     - bash gen/install_ohmyzsh.sh
     - cp gen/common.zsh-theme ~/.oh-my-zsh/custom/themes/common.zsh-theme
-
-    # Dockutil
-    # TODO: replace with brew package after the following issue will be solved
-    # https://github.com/kcrawford/dockutil/issues/146
-    - curl -L https://github.com/kcrawford/dockutil/releases/download/3.0.2/dockutil-3.0.2.pkg -o gen/dockutil.pkg
-    - sudo installer -pkg gen/dockutil.pkg -target /
 
     # Needed for various CLI's (Only for Apple Silicon)
     # e.g. https://github.com/mosen/mysides/issues/27#issuecomment-1668176666
