@@ -143,6 +143,7 @@ cask "optimage"
 cask "dash"
 cask "cleanshot"
 cask "httpie"
+cask "docker"
 
 # Organisation
 cask "notion"
@@ -167,6 +168,7 @@ cask "handbrake"
 cask "keycastr"
 cask "numi"
 cask "audacity"
+cask "logi-options+"
 
 ###############
 ## Mac Store ##
