@@ -13,6 +13,7 @@ export PATH=$PATH:/usr/local/share/android-commandlinetools/emulator
 export PATH=$PATH:$HOME/Tools/flutter/bin
 export PATH=$PATH:$HOME/Tools/caddy
 export PATH=$PATH:$HOME/.composer/vendor/bin
+export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.poetry/bin
 export PATH="$HOME/.poetry/bin:$PATH"
 
@@ -86,5 +87,6 @@ alias pip2='pip2'
 
 alias n='npm'
 alias p='pnpm'
+alias px='pnpm dlx'
 alias y='yarn'
 alias yw='yarn workspace'
