@@ -130,6 +130,10 @@ brew "zsh"
 # https://rsync.samba.org/
 brew "rsync"
 
+# f2 / Batch renaming files and directories
+# https://github.com/ayoisaiah/f2
+brew "f2"
+
 ###########
 ## CASKS ##
 ###########
