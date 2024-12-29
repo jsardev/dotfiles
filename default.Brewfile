@@ -135,7 +135,7 @@ brew "f2"
 ###########
 
 # Development
-cask "iterm2"
+cask "ghostty"
 cask "zed"
 cask "visual-studio-code"
 cask "figma"

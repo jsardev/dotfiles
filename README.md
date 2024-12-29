@@ -47,13 +47,6 @@ Now, we can run Raycast and configure it:
 2. Setup the default keyboard shortcut
 3. Import preferences and data from `src/backup.rayconfig`
 
-### iTerm
-
-1. Import the `src/iterm.json` profile configuration into iTerm app and make it the default profile.
-2. Import the `src/iterm.itermkeymap` keymap configuration overwriting the existing ones.
-3. Set the preferences folder to `~/.dotfiles/src`
-4. Set the global hotkey `option + space`
-
 #### Plugins / settings
 
 ## Miscellaneous

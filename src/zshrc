@@ -63,7 +63,6 @@ eval "$(pyenv init -)"
 
 # Misc
 source "$ZSH/oh-my-zsh.sh"
-source "${HOME}/.iterm2.zsh"
 
 # Aliases (Need to be the last one)
 alias ls='eza'

@@ -4,7 +4,6 @@
 
 - shell:
     - rm -rf gen && mkdir gen
-    - curl -L https://iterm2.com/shell_integration/zsh -o gen/iterm2.zsh
     - curl -L https://raw.githubusercontent.com/Homebrew/install/master/install.sh -o gen/install_homebrew.sh
     - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh -o gen/install_nvm.sh
     - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
@@ -15,7 +14,7 @@
       stdout: true
       stderr: true
       stdin: true
-    - command: /opt/homebrew/bin/brew bundle --file default.Brewfile
+    - command: $(which brew) bundle --file default.Brewfile
       stdout: true
       stderr: true
 
@@ -37,10 +36,10 @@
     ~/.zshrc: src/zshrc
     ~/.gitignore: src/gitignore
     ~/.gitconfig: src/gitconfig
-    ~/.iterm2.zsh: gen/iterm2.zsh
     ~/.lazygit.yml: src/lazygit.yml
     ~/.config/zed/settings.json: src/zed-config.json
     ~/.config/zed/keymap.json: src/zed-keymap.json
+    ~/.config/ghostty/config: src/ghostty
 
 - shell:
     - chsh -s /bin/zsh
@@ -93,7 +92,7 @@
 
     - dockutil --remove all
     - dockutil --add '/Applications/Arc.app'
-    - dockutil --add '/Applications/iTerm.app'
+    - dockutil --add '/Applications/Ghostty.app'
     - dockutil --add '/Applications/Visual Studio Code.app'
     - dockutil --add '/Applications/Figma.app'
     - dockutil --add '/Applications/Notion.app'
