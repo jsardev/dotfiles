@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Battery_position</key>
+	<integer>6</integer>
+	<key>Battery_state</key>
+	<false/>
+	<key>Bluetooth_position</key>
+	<integer>7</integer>
+	<key>CPU_position</key>
+	<integer>0</integer>
+	<key>Clock_position</key>
+	<integer>8</integer>
+	<key>CombinedModules</key>
+	<true/>
+	<key>CombinedModules_popup</key>
+	<false/>
+	<key>CombinedModules_spacing</key>
+	<string>3</string>
+	<key>Disk_position</key>
+	<integer>3</integer>
+	<key>FAN_bar_chart_box</key>
+	<true/>
+	<key>FAN_bar_chart_frame</key>
+	<false/>
+	<key>FAN_bar_chart_label</key>
+	<false/>
+	<key>GPU_position</key>
+	<integer>1</integer>
+	<key>LaunchAtLoginNext</key>
+	<true/>
+	<key>NSOSPLastRootDirectory</key>
+	<data>
+	Ym9va/ACAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAEA
+	AAQAAAADAwAAAAQAAAUAAAABAQAAVXNlcnMAAAAKAAAAAQEAAGpzYXJub3dza2kAAAkA
+	AAABAQAARG9jdW1lbnRzAAAADAAAAAEGAAAQAAAAIAAAADQAAAAIAAAABAMAAM84AAAA
+	AAAACAAAAAQDAAAOYQAAAAAAAAgAAAAEAwAAQGEAAAAAAAAMAAAAAQYAAFwAAABsAAAA
+	fAAAAAgAAAAABAAAQcVsBcaAAAAYAAAAAQIAAAIAAAAAAAAAHwIAAAAAAAAfAgAAAAAA
+	AAAAAAABBQAACAAAAAQDAAABAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTov
+	Ly8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAKAgaHQAAAAIAAAAAAQAAEHGc4Zh
+	gAAAJAAAAAEBAAA3RkVBQTU5MC0wQkYyLTQ4NUEtOEIzRi0wNTZBRTFBMjI2RjkYAAAA
+	AQIAAIEAAAABAAAA7xMAAAEAAADvEwAAAQAAAAEAAAABAQAALwAAADAAAAABAgAAZG5p
+	YgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc2NvZAIAAAAAAAAA8AAAAP7/
+	//8BAAAAAAAAABMAAAAEEAAASAAAAAAAAAAFEAAAjAAAAAAAAAAQEAAAsAAAAAAAAABA
+	EAAAoAAAAAAAAAACIAAAhAEAAAAAAAAFIAAA9AAAAAAAAAAQIAAABAEAAAAAAAARIAAA
+	OAEAAAAAAAASIAAAGAEAAAAAAAATIAAAKAEAAAAAAAAgIAAAZAEAAAAAAAAwIAAA0AAA
+	AAAAAAABwAAA2AAAAAAAAAARwAAAIAAAAAAAAAASwAAA6AAAAAAAAAAB0AAA0AAAAAAA
+	AAAQ0AAABAAAAAAAAAAX8AAANAAAAAAAAAAi8AAAkAEAAAAAAAA=
+	</data>
+	<key>NSStatusItem Restore Position Battery_battery</key>
+	<integer>439</integer>
+	<key>NSStatusItem Restore Position CPU_mini</key>
+	<integer>619</integer>
+	<key>NSStatusItem Restore Position Disk_mini</key>
+	<integer>525</integer>
+	<key>NSStatusItem Restore Position RAM_mini</key>
+	<integer>572</integer>
+	<key>NSStatusItem Restore Position Sensors_sensors</key>
+	<integer>481</integer>
+	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>505 534 430 163 0 0 1440 875 </string>
+	<key>Network_label_position</key>
+	<integer>1</integer>
+	<key>Network_networkChart_position</key>
+	<integer>2</integer>
+	<key>Network_position</key>
+	<integer>5</integer>
+	<key>Network_speed_position</key>
+	<integer>0</integer>
+	<key>Network_state_position</key>
+	<integer>3</integer>
+	<key>Network_text_position</key>
+	<integer>4</integer>
+	<key>Network_widget</key>
+	<string></string>
+	<key>RAM_position</key>
+	<integer>2</integer>
+	<key>Sensor_mini_alignment</key>
+	<string>left</string>
+	<key>Sensors_barChart_position</key>
+	<integer>2</integer>
+	<key>Sensors_fanValue</key>
+	<string>percentage</string>
+	<key>Sensors_label_position</key>
+	<integer>3</integer>
+	<key>Sensors_mini_position</key>
+	<integer>0</integer>
+	<key>Sensors_oneView</key>
+	<false/>
+	<key>Sensors_position</key>
+	<integer>4</integer>
+	<key>Sensors_sensor</key>
+	<string>Fastest fan</string>
+	<key>Sensors_sensors_mode</key>
+	<string>oneRow</string>
+	<key>Sensors_sensors_monospacedFont</key>
+	<false/>
+	<key>Sensors_sensors_size</key>
+	<false/>
+	<key>Sensors_speed</key>
+	<false/>
+	<key>Sensors_stack_position</key>
+	<integer>1</integer>
+	<key>Sensors_state</key>
+	<true/>
+	<key>Sensors_widget</key>
+	<string>mini</string>
+	<key>runAtLoginInitialized</key>
+	<true/>
+	<key>sensor_Average CPU</key>
+	<true/>
+	<key>sensor_F0Ac</key>
+	<false/>
+	<key>sensor_Fastest fan</key>
+	<true/>
+	<key>sensor_TB1T</key>
+	<false/>
+	<key>sensor_TC0E</key>
+	<false/>
+	<key>setupProcess</key>
+	<true/>
+	<key>stack_Average CPU_index</key>
+	<integer>1</integer>
+	<key>stack_Fastest fan_index</key>
+	<integer>0</integer>
+	<key>telemetry</key>
+	<false/>
+	<key>telemetry_id</key>
+	<string>C640E736-2BA9-422C-A231-037F64BD93D9</string>
+	<key>updater_check_ts</key>
+	<integer>1734681840</integer>
+	<key>version</key>
+	<string>2.11.21</string>
+</dict>
+</plist>
