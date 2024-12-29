@@ -26,10 +26,6 @@ brew "d2"
 # https://github.com/wagoodman/dive
 brew "dive"
 
-# docker-compose / Isolated development environments using Docker
-# https://docs.docker.com/compose/
-brew "docker-compose"
-
 # dockutil / Tool for managing dock items
 # https://github.com/kcrawford/dockutil
 # brew "dockutil"
@@ -147,7 +143,7 @@ cask "optimage"
 cask "dash"
 cask "cleanshot"
 cask "httpie"
-cask "docker"
+cask "orbstack"
 
 # Organisation
 cask "notion"
