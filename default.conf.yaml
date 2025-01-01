@@ -32,9 +32,11 @@
     - ~/Workshop
     - ~/.config/zed
     - ~/.config/ghostty
+    - ~/.config/zsh
 
 - link:
     ~/.zshrc: src/zshrc
+    ~/.config/zsh: src/zsh
     ~/.gitignore: src/gitignore
     ~/.gitconfig: src/gitconfig
     ~/.lazygit.yml: src/lazygit.yml

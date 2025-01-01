@@ -130,6 +130,10 @@ brew "rsync"
 # https://github.com/ayoisaiah/f2
 brew "f2"
 
+# atuin / Magical shell history
+# https://github.com/atuinsh/atuin
+brew "atuin"
+
 ###########
 ## CASKS ##
 ###########
