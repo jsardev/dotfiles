@@ -50,9 +50,9 @@ brew "gh"
 # https://git-scm.com/
 brew "git"
 
-# htop / Improved top (interactive process viewer)
-# https://htop.dev/
-brew "htop"
+# btop / A monitor of resources
+# https://github.com/aristocratos/btop
+brew "btop"
 
 # httpie / User-friendly cURL replacement (command-line HTTP client)
 # https://httpie.io/
