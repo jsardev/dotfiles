@@ -134,6 +134,10 @@ brew "f2"
 # https://github.com/atuinsh/atuin
 brew "atuin"
 
+# fzf / A command-line fuzzy finder
+# https://github.com/junegunn/fzf
+brew "fzf"
+
 ###########
 ## CASKS ##
 ###########

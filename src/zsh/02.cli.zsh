@@ -19,3 +19,6 @@ eval "$(pyenv init -)"
 
 # Atuin
 eval "$(atuin init zsh)"
+
+# fzf
+source <(fzf --zsh)
