@@ -31,6 +31,7 @@
 - create:
     - ~/Workshop
     - ~/.config/zed
+    - ~/.config/ghostty
 
 - link:
     ~/.zshrc: src/zshrc
