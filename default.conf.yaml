@@ -4,10 +4,9 @@
 
 - shell:
     - rm -rf gen && mkdir gen
-    - curl -L https://raw.githubusercontent.com/Homebrew/install/master/install.sh -o gen/install_homebrew.sh
+    - curl -L https://raw.githubusercontent.com/homebrew/install/master/install.sh -o gen/install_homebrew.sh
     - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh -o gen/install_nvm.sh
     - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
-    - curl -L https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme -o gen/common.zsh-theme
 
 - shell:
     - command: bash gen/install_homebrew.sh
@@ -22,7 +21,6 @@
 
     - rm -rf "$HOME/.oh-my-zsh"
     - bash gen/install_ohmyzsh.sh
-    - cp gen/common.zsh-theme ~/.oh-my-zsh/custom/themes/common.zsh-theme
 
     # Needed for various CLI's (Only for Apple Silicon)
     # e.g. https://github.com/mosen/mysides/issues/27#issuecomment-1668176666
@@ -30,6 +28,7 @@
 
 - create:
     - ~/Workshop
+    - ~/.config
     - ~/.config/zed
     - ~/.config/ghostty
     - ~/.config/zsh
@@ -37,6 +36,7 @@
 - link:
     ~/.zshrc: src/zshrc
     ~/.config/zsh: src/zsh
+    ~/.config/starship.toml: src/starship.toml
     ~/.gitignore: src/gitignore
     ~/.gitconfig: src/gitconfig
     ~/.lazygit.yml: src/lazygit.yml

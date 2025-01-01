@@ -2,7 +2,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Theme
-export ZSH_THEME="common"
+# Overridden by starship
+export ZSH_THEME=""
 
 # Plugins
 plugins=(
@@ -12,6 +13,7 @@ plugins=(
     yarn
     nvm
     vscode
+    starship
 )
 
 # Load Oh My Zsh
