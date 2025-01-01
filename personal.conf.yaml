@@ -1,19 +1,19 @@
 - shell:
-    - brew install --cask --force dropshare
-    - brew install --cask --force discord
-    - brew install --cask --force messenger
-    - mas install 1423210932 # Flow
-    - mas install 1507246666 # Presentify
+    - command: $(which brew) bundle --file personal.Brewfile
+      stdout: true
+      stderr: true
 
 - create:
     - ~/Workshop@sites
+    - ~/Workshop@design
     - ~/Workshop@games
 
 - shell:
     - mysides remove all
     - mysides add Home file:///Users/jsarnowski/
     - mysides add Workshop file:///Users/jsarnowski/Workshop/
-    - mysides add Workshop@games file:///Users/jsarnowski/Workshop@games/
     - mysides add Workshop@sites file:///Users/jsarnowski/Workshop@sites/
+    - mysides add Workshop@design file:///Users/jsarnowski/Workshop@sites/
+    - mysides add Workshop@games file:///Users/jsarnowski/Workshop@games/
     - mysides add Documents file:///Users/jsarnowski/Documents/
     - mysides add Downloads file:///Users/jsarnowski/Downloads/
