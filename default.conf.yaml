@@ -13,6 +13,7 @@
       stdout: true
       stderr: true
       stdin: true
+    - command: eval "$(/opt/homebrew/bin/brew shellenv)"
     - command: $(which brew) bundle --file default.Brewfile
       stdout: true
       stderr: true
@@ -47,6 +48,7 @@
 - shell:
     - chsh -s /bin/zsh
     - source ~/.zshrc
+    - pipx ensurepath
 
 - shell:
     - mysides remove all
