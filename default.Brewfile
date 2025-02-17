@@ -142,6 +142,10 @@ brew "fzf"
 # https://github.com/pypa/pipx
 brew "pipx"
 
+# sd / Intuitive find & replace CLI (sed alternative)
+# https://github.com/chmln/sd
+brew "sd"
+
 ###########
 ## CASKS ##
 ###########
