@@ -46,6 +46,7 @@
     ~/.config/ghostty/config: src/ghostty
 
 - shell:
+    - touch ~/.hushlogin
     - chsh -s /bin/zsh
     - source ~/.zshrc
     - pipx ensurepath
