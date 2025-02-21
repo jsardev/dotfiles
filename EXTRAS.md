@@ -28,4 +28,4 @@ This is a curated list of useful software that might be needed sometime.
 ## Misc
 - `brew install gdrive`
 - `brew install imapsync`
-- https://github.com/ranyitz/qnm
+- [qnm](https://github.com/ranyitz/qnm)
