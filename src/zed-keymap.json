@@ -1,5 +1,11 @@
 [
   {
+    "bindings": {
+      "cmd-0": "git_panel::ToggleFocus",
+      "cmd-1": "project_panel::ToggleFocus"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "cmd-s": "workspace::SaveAll"
