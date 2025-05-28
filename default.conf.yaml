@@ -70,10 +70,6 @@
     - defaults write com.apple.menuextra.clock ShowDayOfMonth -bool true
     - defaults write com.apple.menuextra.clock Show24Hour -bool true
 
-    # disable spotlight keyboard shortcuts (replaced by Raycast)
-    - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:64:enabled false'
-    - /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c 'Set AppleSymbolicHotKeys:65:enabled false'
-
     # enable mission control > displays have separate spaces
     - defaults write com.apple.spaces spans-displays -bool false
 
