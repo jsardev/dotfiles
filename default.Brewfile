@@ -26,7 +26,7 @@ brew "dive"
 
 # dockutil / Tool for managing dock items
 # https://github.com/kcrawford/dockutil
-# brew "dockutil"
+brew "dockutil"
 
 # doggo / Command-line DNS client
 # https://github.com/mr-karan/doggo
