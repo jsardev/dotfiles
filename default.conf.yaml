@@ -6,7 +6,6 @@
     - rm -rf gen && mkdir gen
     - curl -L https://raw.githubusercontent.com/homebrew/install/master/install.sh -o gen/install_homebrew.sh
     - curl -L https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh -o gen/install_nvm.sh
-    - curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o gen/install_ohmyzsh.sh
 
 - shell:
     - command: bash gen/install_homebrew.sh
@@ -18,10 +17,8 @@
       stdout: true
       stderr: true
 
+    - zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1 --keep
     - bash gen/install_nvm.sh
-
-    - rm -rf "$HOME/.oh-my-zsh"
-    - bash gen/install_ohmyzsh.sh
 
     # Needed for various CLI's (Only for Apple Silicon)
     # e.g. https://github.com/mosen/mysides/issues/27#issuecomment-1668176666
@@ -99,7 +96,7 @@
     - dockutil --remove all
     - dockutil --add '/Applications/Arc.app'
     - dockutil --add '/Applications/Ghostty.app'
-    - dockutil --add '/Applications/Visual Studio Code.app'
+    - dockutil --add '/Applications/Zed.app'
     - dockutil --add '/Applications/Figma.app'
     - dockutil --add '/Applications/Notion.app'
     - dockutil --add '/Applications/Dash.app'

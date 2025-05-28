@@ -1,21 +1,10 @@
-# Zsh Variables
-export DISABLE_AUTO_UPDATE="true"
-export ZSH="$HOME/.oh-my-zsh"
+# Initialize Zap
+[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
+plug "zsh-users/zsh-autosuggestions"
+plug "zap-zsh/supercharge"
+plug "wintermi/zsh-starship"
+plug "zsh-users/zsh-syntax-highlighting"
 
-# Theme
-# Overridden by starship
-export ZSH_THEME=""
-
-# Plugins
-plugins=(
-    git
-    brew
-    npm
-    yarn
-    nvm
-    vscode
-    starship
-)
-
-# Load Oh My Zsh
-source "$ZSH/oh-my-zsh.sh"
+# Load and initialise completion system
+autoload -Uz compinit
+compinit

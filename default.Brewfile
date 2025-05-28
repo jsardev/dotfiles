@@ -146,6 +146,10 @@ brew "pipx"
 # https://github.com/chmln/sd
 brew "sd"
 
+# starship / The minimal, blazing-fast, and infinitely customizable prompt for any shell
+# https://github.com/starship/starship
+brew "starship"
+
 ###########
 ## CASKS ##
 ###########
@@ -153,7 +157,6 @@ brew "sd"
 # Development
 cask "ghostty"
 cask "zed"
-cask "visual-studio-code"
 cask "figma"
 cask "optimage"
 cask "dash"
