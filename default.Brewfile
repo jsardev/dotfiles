@@ -158,7 +158,7 @@ cask "figma"
 cask "optimage"
 cask "dash"
 cask "cleanshot"
-cask "httpie"
+cask "yaak"
 cask "orbstack"
 
 # Organisation
