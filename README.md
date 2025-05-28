@@ -12,7 +12,7 @@ order to install everything that's necessary to start the automation script.
 
 ## How to use
 
-- `git clone git@bitbucket.org:sarneeh/dotfiles.git ~/.dotfiles`
+- `git clone git@github.com:jsardev/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `./install`
 
@@ -26,12 +26,6 @@ necessary configurations:
 Set global hotkeys for 1Password:
 
 - Show Quick Access: `cmd + option + \`
-
-### Docker
-
-To install docker, it's bet to use the Docker Desktop application as installing it via `brew` comes with some issues.
-
-[Download Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 ### Raycast
 
