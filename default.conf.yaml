@@ -13,7 +13,7 @@
       stderr: true
       stdin: true
     - command: eval "$(/opt/homebrew/bin/brew shellenv)"
-    - command: $(which brew) bundle --file default.Brewfile
+    - command: /opt/homebrew/bin/brew bundle --file default.Brewfile
       stdout: true
       stderr: true
 

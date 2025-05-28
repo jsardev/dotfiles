@@ -1,5 +1,5 @@
 - shell:
-    - command: $(which brew) bundle --file personal.Brewfile
+    - command: /opt/homebrew/bin/brew bundle --file personal.Brewfile
       stdout: true
       stderr: true
 

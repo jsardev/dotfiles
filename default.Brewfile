@@ -2,8 +2,6 @@
 ## TAPS ##
 ##########
 
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "aws/tap"
 
 ###########
