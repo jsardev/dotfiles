@@ -1,1 +1,27 @@
-[{"name":"rfc","text":"import React from 'react';\n\ntype {argument name=\"Component Name\"}Props = {}\n\nexport const {argument name=\"Component Name\"}: React.FC<{argument name=\"Component Name\"}Props> = () => {\n    return null;\n}","keyword":"rfc"},{"name":"icn","text":"import cn from 'clsx'","keyword":"icn"},{"name":"irc","text":"import React from 'react';","keyword":"irc"}]
+[
+  {
+    "text": "interface {argument name=\"Component Name\"}Props {}\n\nexport const {argument name=\"Component Name\"}: React.FC<{argument name=\"Component Name\"}Props> = () => {\n    return null;\n}",
+    "keyword": "rfcc",
+    "name": "rfcc"
+  },
+  {
+    "text": "import cn from 'clsx'",
+    "keyword": "icn",
+    "name": "icn"
+  },
+  {
+    "text": "import React from 'react';",
+    "keyword": "irc",
+    "name": "irc"
+  },
+  {
+    "text": "interface {argument name=\"Component Name\"}Props {}\n\nexport default function {argument name=\"Component Name\"}() {\n  return null;\n}",
+    "keyword": "rfcf",
+    "name": "rfcf"
+  },
+  {
+    "text": "interface {argument name=\"name\"}Props {\n  {cursor}\n}",
+    "keyword": "rcpi",
+    "name": "React Props Interface"
+  }
+]
