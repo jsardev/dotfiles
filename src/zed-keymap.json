@@ -2,13 +2,17 @@
   {
     "bindings": {
       "cmd-0": "git_panel::ToggleFocus",
-      "cmd-1": "project_panel::ToggleFocus"
+      "cmd-9": "agent::ToggleFocus",
+      "cmd-1": "project_panel::ToggleFocus",
+      "shift shift": null
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "cmd-s": "workspace::SaveAll"
+      "cmd-s": "workspace::SaveAll",
+      "cmd-alt-shift-up": "editor::AddSelectionAbove",
+      "cmd-alt-shift-down": "editor::AddSelectionBelow"
     }
   },
   {

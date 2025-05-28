@@ -1,15 +1,18 @@
 {
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "icon_theme": "Catppuccin Mocha",
   "git_panel": {
     "dock": "right"
   },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "assistant": {
+  "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "anthropic",
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
