@@ -1,10 +1,3 @@
-##########
-## TAPS ##
-##########
-
-tap "homebrew/bundle"
-tap "homebrew/services"
-
 ###########
 ## CASKS ##
 ###########
