@@ -12,7 +12,7 @@ order to install everything that's necessary to start the automation script.
 
 ## How to use
 
-- `git clone git@github.com:jsardev/dotfiles.git ~/.dotfiles`
+- `git clone https://github.com/jsardev/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `./install`
 
@@ -23,9 +23,10 @@ necessary configurations:
 
 ### 1Password
 
-Set global hotkeys for 1Password:
-
-- Show Quick Access: `cmd + option + \`
+- Set global hotkey: `cmd + option + \`
+- Turn on Developer experience
+  - ssh agent
+  - ssh key git signing
 
 ### Raycast
 
