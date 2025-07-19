@@ -4,8 +4,10 @@ export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/local/sbin
 
-export PATH=$PATH:/usr/local/share/android-commandlinetools/platform-tools
-export PATH=$PATH:/usr/local/share/android-commandlinetools/emulator
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+# export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 export PATH=$PATH:$HOME/Tools/flutter/bin
 export PATH=$PATH:$HOME/Tools/caddy
