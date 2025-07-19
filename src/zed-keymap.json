@@ -4,7 +4,9 @@
       "cmd-0": "git_panel::ToggleFocus",
       "cmd-9": "agent::ToggleFocus",
       "cmd-1": "project_panel::ToggleFocus",
-      "shift shift": null
+      "shift shift": null,
+      "alt-shift-enter": "editor::AcceptEditPrediction",
+      "cmd-alt-]": "workspace::ToggleRightDock"
     }
   },
   {

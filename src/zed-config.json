@@ -1,7 +1,4 @@
 {
-  "features": {
-    "edit_prediction_provider": "supermaven"
-  },
   "edit_predictions": {
     "mode": "subtle"
   },
@@ -11,8 +8,8 @@
   },
   "agent": {
     "default_model": {
-      "provider": "anthropic",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
     },
     "version": "2"
   },
@@ -23,5 +20,19 @@
   "ui_font_family": "JetBrains Mono",
   "buffer_font_family": "JetBrains Mono",
   "format_on_save": "off",
-  "ensure_final_newline_on_save": false
+  "ensure_final_newline_on_save": false,
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
+  "lsp_document_colors": "inlay",
+  "languages": {
+    "SQL": {
+      "formatter": {
+        "external": {
+          "command": "sql-formatter",
+          "arguments": ["--language", "postgresql"]
+        }
+      }
+    }
+  }
 }
