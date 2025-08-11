@@ -1,3 +1,10 @@
+[user]
+	name = Jakub Sarnowski
+	useConfigOnly = true
+
+[include]
+    path = ~/.dotfiles/src/git/gitconfig.personal
+
 [alias]
 	st = status
 	br = branch
@@ -16,10 +23,6 @@
 	c = clean -f -d
 	d = diff
 	ls = log --oneline
-
-[user]
-	name = Jakub Sarnowski
-	email = hello@jsarnowski.com
 
 [pull]
 	rebase = true

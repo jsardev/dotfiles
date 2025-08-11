@@ -6,7 +6,8 @@
       "cmd-1": "project_panel::ToggleFocus",
       "shift shift": null,
       "alt-shift-enter": "editor::AcceptEditPrediction",
-      "cmd-alt-]": "workspace::ToggleRightDock"
+      "cmd-alt-]": "workspace::ToggleRightDock",
+      "cmd-k": null
     }
   },
   {
