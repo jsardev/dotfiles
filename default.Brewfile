@@ -169,7 +169,7 @@ cask "raindropio"
 cask "1password"
 
 # System
-cask "arc"
+cask "google-chrome"
 cask "raycast"
 cask "rocket"
 cask "mysides"
