@@ -1,7 +1,7 @@
 font-family = JetBrains Mono
-font-size = 16
+font-size = 14
 
-theme = catppuccin-mocha
+theme = /Users/jsarnowski/.dotfiles/src/ghostty/theme
 
 # https://github.com/ghostty-org/ghostty/issues/3219
 keybind = global:opt+space=toggle_visibility

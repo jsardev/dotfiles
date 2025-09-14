@@ -40,7 +40,7 @@
     ~/.lazygit.yml: src/lazygit.yml
     ~/.config/zed/settings.json: src/zed-config.json
     ~/.config/zed/keymap.json: src/zed-keymap.json
-    ~/.config/ghostty/config: src/ghostty
+    ~/.config/ghostty/config: src/ghostty/config
 
 - shell:
     - touch ~/.hushlogin
