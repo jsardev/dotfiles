@@ -88,10 +88,6 @@ brew "yarn"
 # https://pnpm.io/
 brew "pnpm"
 
-# pyenv / Python version management
-# https://github.com/pyenv/pyenv
-brew "pyenv"
-
 # quicktype / Generate types and converters from JSON, Schema, and GraphQL
 # https://github.com/quicktype/quicktype
 brew "quicktype"
