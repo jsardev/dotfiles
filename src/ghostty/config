@@ -3,6 +3,8 @@ font-size = 14
 
 theme = /Users/jsarnowski/.dotfiles/src/ghostty/theme
 
+shell-integration-features = ssh-env
+
 # https://github.com/ghostty-org/ghostty/issues/3219
 keybind = global:opt+space=toggle_visibility
 
