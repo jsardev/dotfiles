@@ -5,6 +5,10 @@
 [include]
     path = ~/.dotfiles/src/git/gitconfig.personal
 
+# Custom config for specific project
+# [includeIf "gitdir:~/Workshop/project/"]
+#     path = ~/.dotfiles/src/git/gitconfig.project
+
 [alias]
 	st = status
 	br = branch
