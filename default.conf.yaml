@@ -41,6 +41,7 @@
     ~/.config/zed/settings.json: src/zed-config.json
     ~/.config/zed/keymap.json: src/zed-keymap.json
     ~/.config/ghostty/config: src/ghostty/config
+    ~/.config/atuin/config.toml: src/atuin.toml
 
 - shell:
     - touch ~/.hushlogin
