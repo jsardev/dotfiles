@@ -1,36 +1,45 @@
 {
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 14,
+  "code_actions_on_format": {
+    "source.fixAll.biome": true
+  },
   "edit_predictions": {
     "mode": "subtle"
   },
-  "icon_theme": "Zed (Default)",
+  "ensure_final_newline_on_save": false,
+  "format_on_save": "off",
   "git_panel": {
     "dock": "right"
   },
-  "agent": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet"
+  "icon_theme": "Zed (Default)",
+  "inlay_hints": {
+    "enabled": false,
+    "toggle_on_modifiers_press": {
+      "control": true
     }
   },
-  "base_keymap": "JetBrains",
-  "theme": "Dracula Pro",
-  "ui_font_size": 14,
-  "buffer_font_size": 14,
-  "ui_font_family": "JetBrains Mono",
-  "buffer_font_family": "JetBrains Mono",
-  "format_on_save": "off",
-  "ensure_final_newline_on_save": false,
-  "project_panel": {
-    "auto_fold_dirs": false
-  },
-  "lsp_document_colors": "inlay",
   "languages": {
+    "CSS": {
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      },
+      "language_servers": ["biome", "tailwindcss-language-server"]
+    },
     "SQL": {
       "formatter": {
         "external": {
           "command": "sql-formatter",
           "arguments": ["--language", "postgresql"]
         }
+      }
+    },
+    "TSX": {
+      "formatter": {
+        "language_server": { "name": "biome" }
       }
     }
   },
@@ -40,5 +49,13 @@
         "require_config_file": true
       }
     }
-  }
+  },
+  "lsp_document_colors": "inlay",
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
+  "tab_size": 2,
+  "theme": "Zedokai Darker (Filter Spectrum)",
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_size": 14
 }
