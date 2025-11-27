@@ -26,3 +26,7 @@ export PATH="$PNPM_HOME:$PATH"
 export LG_CONFIG_FILE="$HOME/.lazygit.yml"
 
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
+
+op  inject --in-file "${HOME}/.dotfiles/src/secrets.zsh" | while read -r line; do
+  eval "$line"
+done
