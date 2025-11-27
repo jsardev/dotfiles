@@ -1,7 +1,8 @@
 font-family = JetBrains Mono
 font-size = 14
 
-theme = /Users/jsarnowski/.dotfiles/src/ghostty/theme
+theme = Monokai Pro Spectrum
+# theme = /Users/jsarnowski/.dotfiles/src/ghostty/theme
 
 shell-integration-features = ssh-env
 
@@ -21,3 +22,6 @@ keybind = cmd+up=goto_split:top
 keybind = cmd+down=goto_split:bottom
 keybind = cmd+left=goto_split:left
 keybind = cmd+right=goto_split:right
+
+# https://github.com/sst/opencode/issues/1505
+keybind = shift+enter=text:\x1b[13;2u
