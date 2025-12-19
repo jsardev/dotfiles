@@ -1,4 +1,16 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5-latest"
+    },
+    "model_parameters": []
+  },
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware"
+  },
+  "colorize_brackets": true,
   "base_keymap": "JetBrains",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 14,
@@ -22,11 +34,6 @@
   },
   "languages": {
     "CSS": {
-      "formatter": {
-        "language_server": {
-          "name": "biome"
-        }
-      },
       "language_servers": ["biome", "tailwindcss-language-server"]
     },
     "SQL": {
@@ -37,13 +44,22 @@
         }
       }
     },
+    "TypeScript": {
+      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"]
+    },
     "TSX": {
-      "formatter": {
-        "language_server": { "name": "biome" }
-      }
+      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"]
     }
   },
   "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx"],
+        "experimental": {
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
+        }
+      }
+    },
     "biome": {
       "settings": {
         "require_config_file": true
