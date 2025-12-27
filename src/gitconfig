@@ -55,3 +55,6 @@
 [http]
 	version = HTTP/2
 	postBuffer = 524288000
+[filter "remove-signingkey"]
+	smudge = cat
+	clean = sed '/signingkey =/d'
