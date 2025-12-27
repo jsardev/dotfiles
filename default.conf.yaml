@@ -30,6 +30,7 @@
     - ~/.config/zed
     - ~/.config/ghostty
     - ~/.config/zsh
+    - ~/.config/opencode/agent
 
 - link:
     ~/.zshrc: src/zshrc
@@ -42,7 +43,8 @@
     ~/.config/zed/keymap.json: src/zed-keymap.json
     ~/.config/ghostty/config: src/ghostty/config
     ~/.config/atuin/config.toml: src/atuin.toml
-    ~/.config/opencode/config.json: src/opencode.jsonc
+    ~/.config/opencode/config.json: src/opencode/config.jsonc
+    ~/.config/opencode/agent: src/opencode/agents
     ~/.claude.json: src/claude-code/claude.json
     ~/.claude/settings.json: src/claude-code/settings.json
 

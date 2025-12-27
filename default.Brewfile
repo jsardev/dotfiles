@@ -144,10 +144,6 @@ brew "sd"
 # https://github.com/starship/starship
 brew "starship"
 
-# 1password-cli / Command-line interface for 1Password
-# https://developer.1password.com/docs/cli
-brew "1password-cli"
-
 ###########
 ## CASKS ##
 ###########
@@ -167,6 +163,7 @@ cask "notion"
 cask "notion-calendar"
 cask "raindropio"
 cask "1password"
+cask "1password-cli"
 
 # System
 cask "google-chrome"
