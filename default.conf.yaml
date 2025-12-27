@@ -96,7 +96,7 @@
     - killall Dock
 
     - dockutil --remove all
-    - dockutil --add '/Applications/Google Chrome.app'
+    - dockutil --add '/Applications/Zen.app'
     - dockutil --add '/Applications/Ghostty.app'
     - dockutil --add '/Applications/Zed.app'
     - dockutil --add '/Applications/Figma.app'

@@ -166,7 +166,7 @@ cask "1password"
 cask "1password-cli"
 
 # System
-cask "google-chrome"
+cask "zen"
 cask "raycast"
 cask "rocket"
 cask "mysides"
