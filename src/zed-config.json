@@ -6,6 +6,12 @@
     },
     "model_parameters": []
   },
+  "agent_servers": {
+    "OpenCode": {
+      "command": "opencode",
+      "args": ["acp"]
+    }
+  },
   "indent_guides": {
     "background_coloring": "disabled",
     "coloring": "indent_aware"
