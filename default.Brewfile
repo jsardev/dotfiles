@@ -157,6 +157,7 @@ cask "dash"
 cask "cleanshot"
 cask "yaak"
 cask "orbstack"
+cask "loop"
 
 # Organisation
 cask "notion"
@@ -172,7 +173,6 @@ cask "rocket"
 cask "mysides"
 cask "stats"
 cask "pearcleaner"
-cask "lookaway"
 
 # Fonts
 cask "font-jetbrains-mono"
@@ -185,6 +185,7 @@ cask "keycastr"
 cask "numi"
 cask "audacity"
 cask "logi-options+"
+cask "lookaway"
 
 ###############
 ## Mac Store ##
