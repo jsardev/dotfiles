@@ -148,6 +148,10 @@ brew "starship"
 # https://ffmpeg.org/
 brew "ffmpeg"
 
+# uv / Extremely fast Python package installer and resolver, written in Rust
+# https://docs.astral.sh/uv/
+brew "uv"
+
 ###########
 ## CASKS ##
 ###########
