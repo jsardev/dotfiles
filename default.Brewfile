@@ -171,6 +171,7 @@ cask "raycast"
 cask "rocket"
 cask "mysides"
 cask "stats"
+cask "pearcleaner"
 
 # Fonts
 cask "font-jetbrains-mono"
