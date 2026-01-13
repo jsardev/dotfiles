@@ -158,6 +158,7 @@ cask "cleanshot"
 cask "yaak"
 cask "orbstack"
 cask "loop"
+cask "clop"
 
 # Organisation
 cask "notion"
