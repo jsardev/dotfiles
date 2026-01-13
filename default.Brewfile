@@ -174,6 +174,7 @@ cask "rocket"
 cask "mysides"
 cask "stats"
 cask "pearcleaner"
+cask "betterdisplay"
 
 # Fonts
 cask "font-jetbrains-mono"

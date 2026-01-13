@@ -48,3 +48,9 @@ Now, we can run Raycast and configure it:
 
 - Keyboard / Mouse: [Logitech Options+](https://www.logitech.com/pl-pl/software/logi-options-plus.html)
 - Webcam: [Logitech Tune](https://www.logitech.com/pl-pl/video-collaboration/software/logi-tune-software.html)
+
+## Notes
+
+### Display
+
+Using an external display with a MacBook with 144Hz+ refresh rate doesn't look too good by default. To make it look better we need to get a HiDPI resolution that's at least a bit closer to the crisp retina display. To do so, use [Better Display](github.com/waydabber/BetterDisplay).
