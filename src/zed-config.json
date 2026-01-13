@@ -1,83 +1,84 @@
 {
-  "agent": {
-    "default_model": {
-      "provider": "anthropic",
-      "model": "claude-sonnet-4-5-latest"
+  "ssh_connections": [
+    {
+      "host": "nas",
+      "args": [],
+      "projects": [{ "paths": ["/volume1/docker"] }],
     },
-    "model_parameters": []
-  },
+  ],
   "agent_servers": {
     "OpenCode": {
+      "type": "custom",
       "command": "opencode",
-      "args": ["acp"]
-    }
+      "args": ["acp"],
+    },
   },
   "indent_guides": {
     "background_coloring": "disabled",
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
   "colorize_brackets": true,
   "base_keymap": "JetBrains",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 14,
   "code_actions_on_format": {
-    "source.fixAll.biome": true
+    "source.fixAll.biome": true,
   },
   "edit_predictions": {
-    "mode": "subtle"
+    "mode": "subtle",
   },
   "ensure_final_newline_on_save": false,
   "format_on_save": "off",
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "icon_theme": "Zed (Default)",
   "inlay_hints": {
     "enabled": false,
     "toggle_on_modifiers_press": {
-      "control": true
-    }
+      "control": true,
+    },
   },
   "languages": {
     "CSS": {
-      "language_servers": ["biome", "tailwindcss-language-server"]
+      "language_servers": ["biome", "tailwindcss-language-server"],
     },
     "SQL": {
       "formatter": {
         "external": {
           "command": "sql-formatter",
-          "arguments": ["--language", "postgresql"]
-        }
-      }
+          "arguments": ["--language", "postgresql"],
+        },
+      },
     },
     "TypeScript": {
-      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"]
+      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"],
     },
     "TSX": {
-      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"]
-    }
+      "language_servers": ["biome", "tailwindcss-language-server", "vtsls"],
+    },
   },
   "lsp": {
     "tailwindcss-language-server": {
       "settings": {
         "classFunctions": ["cva", "cx"],
         "experimental": {
-          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
-        }
-      }
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"],
+        },
+      },
     },
     "biome": {
       "settings": {
-        "require_config_file": true
-      }
-    }
+        "require_config_file": true,
+      },
+    },
   },
   "lsp_document_colors": "inlay",
   "project_panel": {
-    "auto_fold_dirs": false
+    "auto_fold_dirs": false,
   },
   "tab_size": 2,
   "theme": "Zedokai Darker (Filter Spectrum)",
   "ui_font_family": "JetBrains Mono",
-  "ui_font_size": 14
+  "ui_font_size": 14,
 }
