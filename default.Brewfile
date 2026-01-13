@@ -144,6 +144,10 @@ brew "sd"
 # https://github.com/starship/starship
 brew "starship"
 
+# ffmpeg / Play, record, convert, and stream audio and video
+# https://ffmpeg.org/
+brew "ffmpeg"
+
 ###########
 ## CASKS ##
 ###########
