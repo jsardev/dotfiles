@@ -172,6 +172,7 @@ cask "rocket"
 cask "mysides"
 cask "stats"
 cask "pearcleaner"
+cask "lookaway"
 
 # Fonts
 cask "font-jetbrains-mono"
