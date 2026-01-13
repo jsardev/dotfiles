@@ -187,6 +187,7 @@ cask "numi"
 cask "audacity"
 cask "logi-options+"
 cask "lookaway"
+cask "flux-app"
 
 ###############
 ## Mac Store ##
