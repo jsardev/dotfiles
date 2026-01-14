@@ -4,7 +4,7 @@
 
 cask "dropshare"
 cask "discord"
-cask "messenger"
+cask "beeper"
 
 ###############
 ## Mac Store ##
