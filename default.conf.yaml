@@ -19,6 +19,7 @@
 
     - zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1 --keep
     - bash gen/install_nvm.sh
+    - curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
     # Needed for various CLI's (Only for Apple Silicon)
     # e.g. https://github.com/mosen/mysides/issues/27#issuecomment-1668176666
@@ -45,8 +46,6 @@
     ~/.config/atuin/config.toml: src/atuin.toml
     ~/.config/opencode/config.json: src/opencode/config.jsonc
     ~/.config/opencode/agent: src/opencode/agents
-    ~/.claude.json: src/claude-code/claude.json
-    ~/.claude/settings.json: src/claude-code/settings.json
 
 - shell:
     - touch ~/.hushlogin

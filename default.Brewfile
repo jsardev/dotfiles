@@ -190,7 +190,7 @@ cask "font-jetbrains-mono-nerd-font"
 
 # Misc
 cask "spotify"
-cask "handbrake"
+cask "handbrake-app"
 cask "keycastr"
 cask "numi"
 cask "audacity"
