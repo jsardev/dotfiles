@@ -5,8 +5,6 @@ gui:
   showListFooter: false
   showRandomTip: false
   showBottomLine: false
-  pull:
-    mode: rebase
 
 git:
   autoFetch: true
@@ -17,3 +15,6 @@ promptToReturnFromSubprocess: false
 refresher:
   refreshInterval: 1
   fetchInterval: 60
+
+os:
+  editPreset: zed
