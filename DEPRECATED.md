@@ -8,6 +8,7 @@ List of software (entries) that I used to use, but no longer use.
 - `brew install --cask tableplus`
 - `brew install --cask transmission`
 - `brew install --cask messenger`
+- `brew install --cask lookaway`
 
 ## Mac Store
 
