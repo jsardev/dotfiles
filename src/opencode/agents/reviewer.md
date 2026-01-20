@@ -1,7 +1,6 @@
 ---
 description: Expert code review and quality analysis
 mode: subagent
-model: zai-coding-plan/glm-4.7
 temperature: 0.1
 tools:
   write: false

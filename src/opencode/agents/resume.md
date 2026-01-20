@@ -1,7 +1,6 @@
 ---
 description: Create compelling resume entries and descriptions
 mode: primary
-model: zai-coding-plan/glm-4.7
 temperature: 0.7
 tools:
   write: true
