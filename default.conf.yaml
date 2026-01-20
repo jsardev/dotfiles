@@ -46,6 +46,7 @@
     ~/.config/atuin/config.toml: src/atuin.toml
     ~/.config/opencode/config.json: src/opencode/config.jsonc
     ~/.config/opencode/agent: src/opencode/agents
+    ~/.config/opencode/commands: src/opencode/commands
 
 - shell:
     - touch ~/.hushlogin
