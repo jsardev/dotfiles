@@ -152,6 +152,8 @@ brew "ffmpeg"
 # https://docs.astral.sh/uv/
 brew "uv"
 
+brew "mole"
+
 ###########
 ## CASKS ##
 ###########
@@ -180,7 +182,6 @@ cask "raycast"
 cask "rocket"
 cask "mysides"
 cask "stats"
-cask "pearcleaner"
 cask "betterdisplay"
 
 # Fonts

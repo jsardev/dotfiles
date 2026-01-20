@@ -10,6 +10,7 @@ List of software (entries) that I used to use, but no longer use.
 - `brew install --cask messenger`
 - `brew install --cask lookaway`
 - `brew install --cask dash`
+- `brew install --cask pearcleaner`
 
 ## Mac Store
 
