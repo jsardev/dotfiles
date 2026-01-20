@@ -8,202 +8,294 @@ tap "aws/tap"
 ## BREWS ##
 ###########
 
-# awscli / Official Amazon AWS command-line interface
-# https://aws.amazon.com/cli/
+# AWS CLI
+# https://github.com/aws/aws-cli
 brew "awscli"
 
-# curl / Get a file from an HTTP, HTTPS or FTP server
-# https://curl.se/
-brew "curl"
-
-# d2 / Modern diagram scripting language that turns text to diagrams
-# https://d2lang.com/
-brew "d2"
-
-# dive / Tool for exploring each layer in a docker image
-# https://github.com/wagoodman/dive
-brew "dive"
-
-# dockutil / Tool for managing dock items
-# https://github.com/kcrawford/dockutil
-brew "dockutil"
-
-# doggo / Command-line DNS client
-# https://github.com/mr-karan/doggo
-brew "doggo"
-
-# dust / More intuitive version of du in rust
-# https://github.com/bootandy/dust
-brew "dust"
-
-# eza / Modern, maintained replacement for ls
-# https://eza.rocks/
-brew "eza"
-
-# gh / GitHub command-line tool
+# GitHub CLI
 # https://github.com/cli/cli
 brew "gh"
 
-# git / Distributed revision control system
-# https://git-scm.com/
-brew "git"
-
-# btop / A monitor of resources
-# https://github.com/aristocratos/btop
-brew "btop"
-
-# httpie / User-friendly cURL replacement (command-line HTTP client)
-# https://httpie.io/
-brew "httpie"
-
-# jless / Command-line pager for JSON data
-# https://jless.io/
-brew "jless"
-
-# jq / Lightweight and flexible command-line JSON processor
-# https://stedolan.github.io/jq/
-brew "jq"
-
-# lazydocker / Lazier way to manage everything docker
-# https://github.com/jesseduffield/lazydocker
-brew "lazydocker"
-
-# lazygit / Simple terminal UI for git commands
-# https://github.com/jesseduffield/lazygit/
-brew "lazygit"
-
-# mas / Mac App Store command-line interface
+# Mac App Store CLI
 # https://github.com/mas-cli/mas
 brew "mas"
 
-# mkcert / Simple tool to make locally trusted development certificates
-# https://github.com/FiloSottile/mkcert
-brew "mkcert"
+# HTTP client
+# https://github.com/curl/curl
+brew "curl"
 
-# yarn / JavaScript package manager
-# https://yarnpkg.com/
-brew "yarn"
+# HTTP client
+# https://github.com/httpie/httpie
+brew "httpie"
 
-# pnpm / Fast, disk space efficient package manager
-# https://pnpm.io/
-brew "pnpm"
+# DNS client
+# https://github.com/mr-karan/doggo
+brew "doggo"
 
-# quicktype / Generate types and converters from JSON, Schema, and GraphQL
-# https://github.com/quicktype/quicktype
-brew "quicktype"
+# Better `du`
+# https://github.com/bootandy/dust
+brew "dust"
 
-# ripgrep / Search tool like grep and The Silver Searcher
+# Better `ls`
+# https://github.com/eza-community/eza
+brew "eza"
+
+# Better `top`
+# https://github.com/aristocratos/btop
+brew "btop"
+
+# Better `grep`
 # https://github.com/BurntSushi/ripgrep
 brew "ripgrep"
 
-# vegeta / HTTP load testing tool and library
-# https://github.com/tsenart/vegeta
-brew "vegeta"
-
-# watch / Executes a program periodically, showing output fullscreen
-# https://gitlab.com/procps-ng/procps
-brew "watch"
-
-# z / Tracks most-used directories to make cd smarter
-# https://github.com/rupa/z
-brew "z"
-
-# shfmt / Autoformat shell script source code
-# https://github.com/mvdan/sh
-brew "shfmt"
-
-# zsh / UNIX shell (command interpreter)
-# https://www.zsh.org/
-brew "zsh"
-
-# rsync / Fast incremental file transfer
-# https://rsync.samba.org/
-brew "rsync"
-
-# f2 / Batch renaming files and directories
-# https://github.com/ayoisaiah/f2
-brew "f2"
-
-# atuin / Magical shell history
-# https://github.com/atuinsh/atuin
-brew "atuin"
-
-# fzf / A command-line fuzzy finder
-# https://github.com/junegunn/fzf
-brew "fzf"
-
-# pipx / Install and Run Python Applications in Isolated Environments
-# https://github.com/pypa/pipx
-brew "pipx"
-
-# sd / Intuitive find & replace CLI (sed alternative)
+# Better `sed`
 # https://github.com/chmln/sd
 brew "sd"
 
-# starship / The minimal, blazing-fast, and infinitely customizable prompt for any shell
+# Track most used directories
+# https://github.com/rupa/z
+brew "z"
+
+# Shell
+# https://github.com/zsh-users/zsh
+brew "zsh"
+
+# Prompt
 # https://github.com/starship/starship
 brew "starship"
 
-# ffmpeg / Play, record, convert, and stream audio and video
-# https://ffmpeg.org/
-brew "ffmpeg"
+# Shell history
+# https://github.com/atuinsh/atuin
+brew "atuin"
 
-# uv / Extremely fast Python package installer and resolver, written in Rust
-# https://docs.astral.sh/uv/
+# Fuzzy finder
+# https://github.com/junegunn/fzf
+brew "fzf"
+
+# MacOS optimisation tool
+# https://github.com/tw93/Mole
+brew "mole"
+
+# Version control system
+# https://github.com/git/git
+brew "git"
+
+# Diagramming tool
+# https://github.com/terrastruct/d2
+brew "d2"
+
+# Types generator
+# https://github.com/glideapps/quicktype
+brew "quicktype"
+
+# TUI for docker
+# https://github.com/jesseduffield/lazydocker
+brew "lazydocker"
+
+# TUI for git
+# https://github.com/jesseduffield/lazygit
+brew "lazygit"
+
+# Autoformat shell scripts
+# https://github.com/mvdan/sh
+brew "shfmt"
+
+# HTTP load testing
+# https://github.com/tsenart/vegeta
+brew "vegeta"
+
+# JavaScript package manager
+# https://github.com/yarnpkg/berry
+brew "yarn"
+
+# JavaScript package manager
+# https://github.com/pnpm/pnpm
+brew "pnpm"
+
+# Python package manager
+# https://github.com/astral-sh/uv
 brew "uv"
 
-brew "mole"
+# Python executables
+# https://github.com/pypa/pipx
+brew "pipx"
+
+# JSON viewer
+# https://github.com/PaulJuliusMartinez/jless
+brew "jless"
+
+# JSON processor
+# https://github.com/jqlang/jq
+brew "jq"
+
+# Docker image explorer
+# https://github.com/wagoodman/dive
+brew "dive"
+
+# MacOS dock items manager
+# https://github.com/kcrawford/dockutil
+brew "dockutil"
+
+# Local certificates
+# https://github.com/FiloSottile/mkcert
+brew "mkcert"
+
+# Execute a program periodically
+# https://gitlab.com/procps-ng/procps
+brew "watch"
+
+# Batch rename utility
+# https://github.com/ayoisaiah/f2
+brew "f2"
+
+# Sync utility
+# https://rsync.samba.org/
+brew "rsync"
+
+# Media manipulation
+# https://github.com/FFmpeg/FFmpeg
+brew "ffmpeg"
 
 ###########
 ## CASKS ##
 ###########
 
-# Development
+# Terminal emulator
+# https://github.com/ghostty-org/ghostty
 cask "ghostty"
+
+# Code editor
+# https://github.com/zed-industries/zed
 cask "zed"
+
+# Design tool
+# https://www.figma.com/
 cask "figma"
+
+# Media optimisation tool
+# https://optimage.app/
 cask "optimage"
-cask "cleanshot"
-cask "yaak"
-cask "orbstack"
-cask "loop"
+
+# Media optimisation tool
+# https://github.com/lowtechguys/Clop
 cask "clop"
 
-# Organisation
+# Screen capturing tool
+# https://github.com/CleanShot/CleanShot
+cask "cleanshot"
+
+# HTTP client
+# https://github.com/makaroni4/yaak
+cask "yaak"
+
+# Docker
+# https://github.com/orbstack/orbstack
+cask "orbstack"
+
+# Window manager
+# https://github.com/MrKai77/Loop
+cask "loop"
+
+# Notes
+# https://www.notion.com/
 cask "notion"
+
+# Calendar
+# https://www.notion.com/product/calendar
 cask "notion-calendar"
+
+# Bookmark manager
+# https://github.com/raindropio/raindrop
 cask "raindropio"
+
+# Password manager
+# https://1password.com/
 cask "1password"
+
+# Password manager CLI
+# https://github.com/1Password/onepassword-cli
 cask "1password-cli"
 
-# System
+# Browser
+# https://github.com/zen-browser/desktop
 cask "zen"
+
+# Better spotlight
+# https://raycast.com/
 cask "raycast"
+
+# Emoji picker
+# https://github.com/matthewpalmer/Rocket
 cask "rocket"
+
+# Finder manager
+# https://github.com/mosen/mysides
 cask "mysides"
+
+# System monitor
+# https://github.com/exelban/stats
 cask "stats"
+
+# Display management tool
+# https://github.com/waydabber/BetterDisplay
 cask "betterdisplay"
 
-# Fonts
-cask "font-jetbrains-mono"
-cask "font-jetbrains-mono-nerd-font"
-
-# Misc
-cask "spotify"
-cask "handbrake-app"
-cask "keycastr"
-cask "numi"
-cask "audacity"
-cask "logi-options+"
+# Display temperature tool
+# https://justgetflux.com/
 cask "flux-app"
+
+# Music
+# https://www.spotify.com/
+cask "spotify"
+
+# Video transcoder
+# https://github.com/HandBrake/HandBrake
+cask "handbrake-app"
+
+# Keystroke visualizer
+# https://github.com/keycastr/keycastr
+cask "keycastr"
+
+# Calculator
+# https://github.com/nikolaeu/Numi
+cask "numi"
+
+# Audio editor
+# https://github.com/audacity/audacity
+cask "audacity"
+
+# Logitech Options+
+# https://www.logitech.com/en-us/software/logi-options-plus.html
+cask "logi-options+"
+
+# JetBrains Mono Font
+# https://github.com/JetBrains/JetBrainsMono
+cask "font-jetbrains-mono"
+
+# JetBrains Mono Nerd Font
+# https://github.com/ryanoasis/nerd-fonts
+cask "font-jetbrains-mono-nerd-font"
 
 ###############
 ## Mac Store ##
 ###############
 
-mas "Magnet", id: 441258766
+# File sharing
+# https://github.com/localsend/localsend
 mas "LocalSend", id: 1661733229
+
+# Keep-awake tool
+# https://apps.apple.com/us/app/amphetamine/id937984704
 mas "Amphetamine", id: 937984704
+
+# File archiver
+# https://github.com/aonez/Keka
 mas "Keka", id: 470158793
+
+# Keyboard sounds
+# https://apps.apple.com/us/app/klack/id6446206067
 mas "Klack", id: 6446206067
+
+# Improved drag and drop
+# https://apps.apple.com/us/app/dropover/id1355679052
 mas "Dropover", id: 1355679052
