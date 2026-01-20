@@ -101,5 +101,4 @@
     - dockutil --add '/Applications/Zed.app'
     - dockutil --add '/Applications/Figma.app'
     - dockutil --add '/Applications/Notion.app'
-    - dockutil --add '/Applications/Dash.app'
     - dockutil --add '/Applications/Spotify.app'
