@@ -49,6 +49,9 @@
     ~/.config/opencode/commands: src/opencode/commands
 
 - shell:
+    - op inject -i ~/.dotfiles/src/zsh/04.secrets.zsh.tpl -o ~/.dotfiles/src/zsh/04.secrets.zsh
+
+- shell:
     - touch ~/.hushlogin
     - chsh -s /bin/zsh
     - source ~/.zshrc
