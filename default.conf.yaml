@@ -32,6 +32,7 @@
     - ~/.config/ghostty
     - ~/.config/zsh
     - ~/.config/opencode/agent
+    - ~/.config/opencode/commands
 
 - link:
     ~/.zshrc: src/zshrc
