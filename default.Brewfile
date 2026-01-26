@@ -208,6 +208,10 @@ cask "notion-calendar"
 # https://github.com/raindropio/raindrop
 cask "raindropio"
 
+# Qspace Pro
+# https://qspace.awehunt.com/en-us/index.html
+cask "qspace-pro"
+
 # Password manager
 # https://1password.com/
 cask "1password"
