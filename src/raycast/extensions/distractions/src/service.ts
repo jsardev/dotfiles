@@ -34,7 +34,7 @@ class DistractionsService {
 		const payload = this.getPayload(state);
 		const authorization = this.getAuthorizationHeader();
 
-		return fetch("http://adguard.lan/control/clients/update", {
+		return fetch("https://ag.home.jsarnowski.com/control/clients/update", {
 			method: "POST",
 			body: JSON.stringify(payload),
 			headers: {
