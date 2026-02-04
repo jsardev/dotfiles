@@ -14,6 +14,7 @@ export PATH=$PATH:$HOME/Tools/caddy
 export PATH=$PATH:$HOME/.composer/vendor/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.poetry/bin
+export PATH=$PATH:$HOME/.bun/bin
 export PATH="$HOME/.poetry/bin:$PATH"
 
 export PATH=/usr/local/opt/php@7.4/bin:$PATH
