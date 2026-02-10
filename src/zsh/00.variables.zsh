@@ -1,6 +1,6 @@
 export EDITOR='vim'
 
-export PATH=$PATH:/opt/homebrew/bin
+export PATH="$(brew --prefix)/bin:$PATH"
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/local/sbin
 
