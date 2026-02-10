@@ -1,27 +1,27 @@
 [
-  {
-    "bindings": {
-      "cmd-0": "git_panel::ToggleFocus",
-      "cmd-9": "agent::ToggleFocus",
-      "cmd-1": "project_panel::ToggleFocus",
-      "shift shift": null,
-      "alt-shift-enter": "editor::AcceptEditPrediction",
-      "cmd-alt-]": "workspace::ToggleRightDock",
-      "cmd-k": null
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "cmd-s": "workspace::SaveAll",
-      "cmd-alt-shift-up": "editor::AddSelectionAbove",
-      "cmd-alt-shift-down": "editor::AddSelectionBelow"
-    }
-  },
-  {
-    "context": "ProjectPanel",
-    "bindings": {
-      "cmd--": "project_panel::CollapseAllEntries"
-    }
-  }
+	{
+		"bindings": {
+			"cmd-0": "git_panel::ToggleFocus",
+			"cmd-9": "agent::ToggleFocus",
+			"cmd-1": "project_panel::ToggleFocus",
+			"shift shift": null,
+			"alt-shift-enter": "editor::AcceptEditPrediction",
+			"cmd-alt-]": "workspace::ToggleRightDock",
+			"cmd-k": null
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"cmd-s": "workspace::SaveAll",
+			"cmd-alt-shift-up": "editor::AddSelectionAbove",
+			"cmd-alt-shift-down": "editor::AddSelectionBelow"
+		}
+	},
+	{
+		"context": "ProjectPanel",
+		"bindings": {
+			"cmd--": "project_panel::CollapseAllEntries"
+		}
+	}
 ]
