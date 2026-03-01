@@ -128,6 +128,10 @@ brew "jless"
 # https://github.com/jqlang/jq
 brew "jq"
 
+# YAML processor
+# https://github.com/mikefarah/yq
+brew "yq"
+
 # Docker image explorer
 # https://github.com/wagoodman/dive
 brew "dive"
@@ -199,10 +203,6 @@ cask "loop"
 # Notes
 # https://www.notion.com/
 cask "notion"
-
-# Calendar
-# https://www.notion.com/product/calendar
-cask "notion-calendar"
 
 # Bookmark manager
 # https://github.com/raindropio/raindrop
