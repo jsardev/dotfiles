@@ -46,15 +46,13 @@
 [gpg]
 	format = ssh
 
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-
 [commit]
 	gpgsign = true
 
 [http]
 	version = HTTP/2
 	postBuffer = 524288000
+
 [filter "remove-signingkey"]
 	smudge = cat
 	clean = sed '/signingkey =/d'

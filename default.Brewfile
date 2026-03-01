@@ -213,12 +213,12 @@ cask "raindropio"
 cask "qspace-pro"
 
 # Password manager
-# https://1password.com/
-cask "1password"
+# https://bitwarden.com/
+cask "bitwarden"
 
 # Password manager CLI
-# https://github.com/1Password/onepassword-cli
-cask "1password-cli"
+# https://github.com/bitwarden/clients
+cask "bitwarden-cli"
 
 # Browser
 # https://github.com/zen-browser/desktop

@@ -50,7 +50,7 @@
     ~/.config/opencode/commands: src/opencode/commands
 
 - shell:
-    - op inject -i ~/.dotfiles/src/zsh/04.secrets.zsh.tpl -o ~/.dotfiles/src/zsh/04.secrets.zsh
+    - ~/.dotfiles/src/scripts/create-secrets.sh
 
 - shell:
     - touch ~/.hushlogin

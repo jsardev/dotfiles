@@ -1,5 +1,7 @@
 export EDITOR='vim'
 
+export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
+
 export PATH="$(brew --prefix)/bin:$PATH"
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/local/sbin

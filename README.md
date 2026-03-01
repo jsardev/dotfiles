@@ -21,9 +21,9 @@ order to install everything that's necessary to start the automation script.
 Some of the installed apps need to be manually configured as the process can't be automated. Here's a description of the
 necessary configurations:
 
-### 1Password
+### Bitwarden
 
-- Set global hotkey: `cmd + option + \`
+- Setup Raycast integration
 - Turn on Developer experience
   - ssh agent
   - ssh key git signing
