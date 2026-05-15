@@ -52,6 +52,10 @@ brew "ripgrep"
 # https://github.com/chmln/sd
 brew "sd"
 
+# Better `df`
+# https://github.com/muesli/duf
+brew "duf"
+
 # Track most used directories
 # https://github.com/rupa/z
 brew "z"
