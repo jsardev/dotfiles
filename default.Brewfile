@@ -164,6 +164,10 @@ brew "ffmpeg"
 # https://github.com/oxipng/oxipng
 brew "oxipng"
 
+# Document converter
+# https://pandoc.org/
+brew "pandoc"
+
 ###########
 ## CASKS ##
 ###########
