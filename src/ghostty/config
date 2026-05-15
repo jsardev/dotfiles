@@ -6,15 +6,13 @@ theme = Monokai Pro Spectrum
 
 shell-integration-features = ssh-env
 
-# https://github.com/ghostty-org/ghostty/issues/3219
 keybind = global:opt+space=toggle_visibility
 
-keybind = cmd+right_bracket=next_tab
-keybind = cmd+left_bracket=previous_tab
+keybind = cmd+]=next_tab
+keybind = cmd+[=previous_tab
 
-# https://github.com/ghostty-org/ghostty/discussions/3187
-# keybind = cmd+shift+right_bracket=move_tab:+1
-# keybind = cmd+shift+left_bracket=move_tab:-1
+keybind = cmd+shift+]=move_tab:+1
+keybind = cmd+shift+[=move_tab:-1
 
 keybind = cmd+shift+h=new_split:right
 keybind = cmd+shift+v=new_split:down
