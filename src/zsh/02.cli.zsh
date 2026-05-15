@@ -20,3 +20,6 @@ FZF_CTRL_R_COMMAND="" source <(fzf --zsh)
 
 # bun
 [ -s "/Users/jsarnowski/.bun/_bun" ] && source "/Users/jsarnowski/.bun/_bun"
+
+# sdkman
+source "$HOME/.sdkman/bin/sdkman-init.sh"
