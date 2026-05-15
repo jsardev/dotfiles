@@ -11,6 +11,7 @@ List of software (entries) that I used to use, but no longer use.
 - `lookaway`
 - `dash`
 - `pearcleaner`
+- `optimage`
 
 ## Mac Store
 

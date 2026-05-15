@@ -181,10 +181,6 @@ cask "zed"
 cask "figma"
 
 # Media optimisation tool
-# https://optimage.app/
-cask "optimage"
-
-# Media optimisation tool
 # https://github.com/lowtechguys/Clop
 cask "clop"
 
