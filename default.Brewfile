@@ -280,6 +280,10 @@ cask "font-jetbrains-mono"
 # https://github.com/ryanoasis/nerd-fonts
 cask "font-jetbrains-mono-nerd-font"
 
+# Menu bar manager
+# https://icemenubar.app/
+cask "jordanbaird-ice"
+
 ###############
 ## Mac Store ##
 ###############
