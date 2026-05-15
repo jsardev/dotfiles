@@ -160,6 +160,10 @@ brew "rsync"
 # https://github.com/FFmpeg/FFmpeg
 brew "ffmpeg"
 
+# PNG Optimizer
+# https://github.com/oxipng/oxipng
+brew "oxipng"
+
 ###########
 ## CASKS ##
 ###########
