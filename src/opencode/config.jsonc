@@ -17,14 +17,6 @@
     },
   },
   "mcp": {
-    "linear": {
-      "type": "remote",
-      "url": "https://mcp.linear.app/mcp",
-      "oauth": false,
-      "headers": {
-        "Authorization": "Bearer {env:LINEAR_API_KEY}",
-      },
-    },
     "context7": {
       "type": "remote",
       "url": "https://mcp.context7.com/mcp",
@@ -35,6 +27,10 @@
     "firecrawl": {
       "type": "remote",
       "url": "https://mcp.firecrawl.dev/{env:FIRECRAWL_API_KEY}/v2/mcp",
+    },
+    "instantdomainsearch": {
+      "type": "remote",
+      "url": "https://api.instantdomainsearch.com/mcp/streamable-http",
     },
   },
 }
