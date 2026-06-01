@@ -1,0 +1,21 @@
+# General
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+
+# Prompt
+zmodule duration-info
+zmodule git-info
+zmodule joke/zim-starship
+
+# Completion
+zmodule zsh-users/zsh-completions --fpath src
+zmodule completion
+zmodule g-plane/pnpm-shell-completion --on-pull './zplug.zsh'
+
+# Other
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule zsh-users/zsh-autosuggestions
