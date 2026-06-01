@@ -172,6 +172,10 @@ brew "oxipng"
 # https://pandoc.org/
 brew "pandoc"
 
+# Just
+# https://github.com/casey/just
+brew "just"
+
 ###########
 ## CASKS ##
 ###########

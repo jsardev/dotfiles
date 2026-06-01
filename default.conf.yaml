@@ -17,7 +17,6 @@
       stdout: true
       stderr: true
 
-    - zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1 --keep
     - bash gen/install_nvm.sh
     - curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
@@ -33,6 +32,7 @@
     - ~/.config/zsh
     - ~/.config/opencode/agent
     - ~/.config/opencode/commands
+    - ~/.zsh/completions
 
 - link:
     ~/.zshrc: src/zshrc
@@ -57,6 +57,7 @@
     - chsh -s /bin/zsh
     - source ~/.zshrc
     - pipx ensurepath
+    - just --completions zsh > ~/.zsh/completions/_just
 
 - shell:
     - mysides remove all
